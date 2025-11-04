@@ -30,5 +30,843 @@
     { "category": "Environment", "score": 82 },
     { "category": "Process", "score": 58 },
     { "category": "Compliance", "score": 71 }
+  ],
+
+  "statements": {
+    "4.3": 
+      [
+  {
+    "cause": "Fall of Roof",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "3(3)",
+      "2(2)",
+      "3(3)",
+      "2(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Fall of Side",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "14(48)",
+      "7(9)",
+      "10(10)",
+      "13(24)",
+      "5(9)",
+      "5(6)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Other Ground Movement",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "(WINDING IN SHAFT)",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "1(1)",
+      "--",
+      "1(2)",
+      "2(3)",
+      "2(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Rope Haulage",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Wheeled Trackless Transp.",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "9(10)",
+      "11(12)",
+      "4(4)",
+      "8(8)",
+      "7(7)",
+      "13(13)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Other Transp. Machinery",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "3(3)",
+      "--",
+      "1(1)",
+      "3(3)",
+      "--",
+      "2(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "TRANSPORTATION MACHINERY",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "5(5)",
+      "10(10)",
+      "5(5)",
+      "4(4)",
+      "5(5)",
+      "2(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "5. EXPLOSIVES",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "3(3)",
+      "4(7)",
+      "4(4)",
+      "2(3)",
+      "2(3)",
+      "--"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "6. ELECTRICITY",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "1(1)",
+      "--",
+      "--",
+      "2(2)",
+      "3(3)",
+      "2(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "COMBUSTIBLE MATERIAL",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "3(4)",
+      "--",
+      "1(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Fall of Persons",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "6(8)",
+      "5(5)",
+      "5(5)",
+      "9(10)",
+      "8(8)",
+      "9(10)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Fall of Objects",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "8(8)",
+      "5(5)",
+      "3(3)",
+      "8(9)",
+      "2(2)",
+      "4(4)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Other Falls",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "1(1)",
+      "--",
+      "--",
+      "--",
+      "1(1)",
+      "--"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Irruption of Water",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Flying Pieces",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "1(1)",
+      "1(1)",
+      "1(3)",
+      "2(2)",
+      "--",
+      "2(2)"
+    ],
+    "statement_no": "4.3"
+  },
+  {
+    "cause": "Miscellaneous",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "3(3)",
+      "--",
+      "--",
+      "1(1)",
+      "1(1)",
+      "1(1)"
+    ],
+    "statement_no": "4.3"
+  }
+]
+    ,
+    "4.4": 
+      [
+  {
+    "cause": "Fall of Roof",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "1(1)",
+      "2(2)",
+      "5(5)",
+      "2(2)",
+      "0(1)",
+      "3(3)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Fall of Side",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "0(3)",
+      "3(4)",
+      "3(5)",
+      "0(6)",
+      "0(1)",
+      "2(2)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Other Ground Movement",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "(WINDING IN SHAFT)",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "2(2)",
+      "2(3)",
+      "3(3)",
+      "0(1)",
+      "2(4)",
+      "1(1)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Rope Haulage",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Wheeled Trackless Transp.",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "2(2)",
+      "4(8)",
+      "3(3)",
+      "6(8)",
+      "4(9)",
+      "0(1)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Other Transp. Machinery",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "3(3)",
+      "6(6)",
+      "--",
+      "--",
+      "2(2)",
+      "1(1)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "TRANSPORTATION MACHINERY",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "10(10)",
+      "15(15)",
+      "8(8)",
+      "12(12)",
+      "11(13)",
+      "5(5)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "5. EXPLOSIVES",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "1(3)",
+      "0(4)",
+      "1(4)",
+      "0(1)",
+      "0(3)",
+      "--"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "6. ELECTRICITY",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "2(2)",
+      "3(4)",
+      "--",
+      "--",
+      "1(1)",
+      "1(2)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "COMBUSTIBLE MATERIAL",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "2(2)",
+      "--",
+      "--",
+      "0(2)",
+      "2(4)",
+      "1(12)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Fall of Persons",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "13(13)",
+      "22(22)",
+      "8(8)",
+      "11(12)",
+      "10(10)",
+      "5(6)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Fall of Objects",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "16(18)",
+      "18(18)",
+      "12(12)",
+      "16(19)",
+      "9(9)",
+      "9(9)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Other Falls",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "2(2)",
+      "1(1)",
+      "--",
+      "1(1)",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Irruption of Water",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Flying Pieces",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "1(1)",
+      "--",
+      "1(1)",
+      "1(1)",
+      "1(1)",
+      "1(2)"
+    ],
+    "statement_no": "4.4"
+  },
+  {
+    "cause": "Miscellaneous",
+    "years": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "values": [
+      "6(6)",
+      "6(6)",
+      "1(1)",
+      "3(3)",
+      "2(2)",
+      "6(7)"
+    ],
+    "statement_no": "4.4"
+  }
+]
+    ,
+    "4.7": 
+      [
+  {
+    "cause": "1",
+    "values": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "statement_no": "4.7"
+  },
+  {
+    "cause": "1",
+    "values": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "statement_no": "4.7"
+  }
+]
+    ,
+    "4.8": 
+      [
+  {
+    "cause": "Fall of Persons",
+    "values": [
+      "1",
+      "--",
+      "--",
+      "--",
+      "--",
+      "1",
+      "--",
+      "3",
+      "4",
+      "9"
+    ],
+    "statement_no": "4.8"
+  },
+  {
+    "cause": "Fall of Objects",
+    "values": [
+      "2",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "--",
+      "2",
+      "4"
+    ],
+    "statement_no": "4.8"
+  }
+]
+    ,
+    "4.9": 
+      [
+  {
+    "cause": "Fall of Roof",
+    "values": [
+      "--",
+      "--",
+      "1",
+      "1",
+      "--",
+      "--",
+      "1",
+      "--",
+      "--",
+      "3"
+    ],
+    "statement_no": "4.9"
+  }
+]
+  },
+
+  "fatalByRegion": 
+  [
+    { "region": "EAST GODAVARI", "fatal_accidents": 1 },
+    { "region": "DIBRUGARH", "fatal_accidents": 6 },
+    { "region": "BHARUCH", "fatal_accidents": 10 },
+    { "region": "GANDHINAGAR", "fatal_accidents": 1 },
+    { "region": "MEHASANA", "fatal_accidents": 7 },
+    { "region": "DANTEWARA", "fatal_accidents": 3 },
+    { "region": "KOLLAM", "fatal_accidents": 1 },
+    { "region": "BELLARY", "fatal_accidents": 1 }
+  ],
+
+  "deathRateByRegion": 
+  [
+    { "region": "GANDHINAGAR", "death_rate_overall": 15.63 },
+    { "region": "SAHEBGANJ", "death_rate_overall": 2.34 },
+    { "region": "JHUNJHUNU", "death_rate_overall": 0.85 },
+    { "region": "AJMER", "death_rate_overall": 1.80 },
+    { "region": "BHILWARA", "death_rate_overall": 2.46 },
+    { "region": "UDAIPUR", "death_rate_overall": 0.57 },
+    { "region": "RAJSAMAND", "death_rate_overall": 0.62 },
+    { "region": "RAICHUR", "death_rate_overall": null }
+  ],
+
+  "responsibilityBreakdown": 
+  [
+    { "responsibility": "Misadventure", "total": 1 },
+    { "responsibility": "Management", "total": 13 },
+    { "responsibility": "Management & Sub. Sup. Staff(SSS)", "total": 11 },
+    { "responsibility": "Management & Coworker", "total": 5 },
+    { "responsibility": "Subordinate Supervisory Staff(SSS)", "total": 4 },
+    { "responsibility": "Coworker", "total": 3 },
+    { "responsibility": "Deceased", "total": 2 },
+    { "responsibility": "Total", "total": 45 }
   ]
 }

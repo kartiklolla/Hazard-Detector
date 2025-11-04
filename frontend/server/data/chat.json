@@ -5,5 +5,19 @@
     "content": "Hello! I'm your Digital Mine Safety Officer. I can help you analyze DGMS incident data, identify patterns, and provide compliance recommendations. What would you like to know?",
     "timestamp": "2025-11-04T00:00:00.000Z",
     "metadata": null
+  },
+  {
+    "id": "6f5dc663-8f99-4306-b015-3acab6d4455f",
+    "role": "user",
+    "content": "hii",
+    "timestamp": "2025-11-04T17:01:44.328Z",
+    "metadata": null
+  },
+  {
+    "id": "3cd8a79c-ec38-4f9a-87ce-3285fbf55f04",
+    "role": "assistant",
+    "content": "I've registered your query: \"hii\". (Prototype reply)",
+    "timestamp": "2025-11-04T17:01:44.329Z",
+    "metadata": null
   }
 ]

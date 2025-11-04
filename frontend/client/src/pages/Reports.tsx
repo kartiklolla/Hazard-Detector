@@ -26,6 +26,7 @@ const defaultReports: any[] = [];
 export default function Reports() {
   const [open, setOpen] = useState(false);
   const [reports, setReports] = useState(defaultReports);
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -33,7 +34,16 @@ export default function Reports() {
         const res = await fetch("/api/reports");
         if (!res.ok) return;
         const json = await res.json();
-        setReports(json ?? []);
+        const raw = json ?? [];
+        // sort by date (newest first). Handle unparsable dates by treating them as very old.
+        const sorted = raw.slice().sort((a: any, b: any) => {
+          const da = Date.parse(a?.date);
+          const db = Date.parse(b?.date);
+          const na = Number.isFinite(da) ? da : -8640000000000000;
+          const nb = Number.isFinite(db) ? db : -8640000000000000;
+          return nb - na;
+        });
+        setReports(sorted);
       } catch (e) {
         console.error("Failed to load reports", e);
       }
@@ -135,7 +145,7 @@ export default function Reports() {
         </Dialog>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-1">
         <Card className="border-primary/20 bg-primary/5">
           <CardHeader className="pb-3">
             <div className="flex items-center justify-between">
@@ -144,37 +154,9 @@ export default function Reports() {
             </div>
           </CardHeader>
           <CardContent>
-            <h3 className="text-2xl font-bold font-mono mb-2">156</h3>
+            <h3 className="text-2xl font-bold font-mono mb-2">{reports.length}</h3>
             <p className="text-sm text-muted-foreground">Reports Generated</p>
             <p className="text-xs text-muted-foreground mt-1">Since 2016</p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader className="pb-3">
-            <div className="flex items-center justify-between">
-              <TrendingUp className="h-8 w-8 text-muted-foreground" />
-              <Badge variant="secondary">Average</Badge>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <h3 className="text-2xl font-bold font-mono mb-2">89%</h3>
-            <p className="text-sm text-muted-foreground">Compliance Score</p>
-            <p className="text-xs text-green-600 dark:text-green-400 mt-1">+4% vs last year</p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader className="pb-3">
-            <div className="flex items-center justify-between">
-              <CheckCircle className="h-8 w-8 text-muted-foreground" />
-              <Badge variant="secondary">Status</Badge>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <h3 className="text-2xl font-bold font-mono mb-2">2.3hrs</h3>
-            <p className="text-sm text-muted-foreground">Avg. Generation Time</p>
-            <p className="text-xs text-muted-foreground mt-1">95% faster than manual</p>
           </CardContent>
         </Card>
       </div>
@@ -185,7 +167,9 @@ export default function Reports() {
         </CardHeader>
         <CardContent>
           <div className="space-y-3">
-            {reports.map((report) => (
+            {(
+              (showAll ? reports : reports.slice(0, 6))
+            ).map((report) => (
               <div
                 key={report.id}
                 className="flex items-center justify-between gap-4 p-4 border rounded-lg hover-elevate"
@@ -203,26 +187,39 @@ export default function Reports() {
                         <Calendar className="h-3 w-3" />
                         {report.date}
                       </span>
-                      <span className="flex items-center gap-1">
-                        <AlertTriangle className="h-3 w-3" />
-                        {report.incidents} incidents
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <CheckCircle className="h-3 w-3" />
-                        {report.compliance}% compliance
-                      </span>
                     </div>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2 flex-shrink-0">
                   <Badge variant="secondary">{report.type}</Badge>
-                  <Button variant="outline" size="sm" className="gap-2" data-testid={`button-download-${report.id}`}>
-                    <Download className="h-3 w-3" /> PDF
-                  </Button>
+                  {report.url ? (
+                    <a
+                      href={report.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download
+                      data-testid={`button-download-${report.id}`}
+                    >
+                      <Button variant="outline" size="sm" className="gap-2">
+                        <Download className="h-3 w-3" /> PDF
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button variant="outline" size="sm" className="gap-2" data-testid={`button-download-${report.id}`}>
+                      <Download className="h-3 w-3" /> PDF
+                    </Button>
+                  )}
                 </div>
               </div>
             ))}
+            {reports.length > 6 && (
+              <div className="flex justify-center mt-2">
+                <Button variant="ghost" size="sm" onClick={() => setShowAll((s) => !s)}>
+                  {showAll ? "Show less" : `Show more (${reports.length - 6})`}
+                </Button>
+              </div>
+            )}
           </div>
         </CardContent>
       </Card>

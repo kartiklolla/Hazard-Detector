@@ -39,7 +39,7 @@ const menuItems = [
     icon: FileText,
   },
   {
-    title: "Web Scraper",
+    title: "Alerts and Resources",
     url: "/scraper",
     icon: Globe,
   },
