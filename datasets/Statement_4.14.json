@@ -1,0 +1,177 @@
+{
+  "run_id": "f77c4d2b-fe0c-4483-8281-b81c112c8749",
+  "extraction_agent_id": "919dc7e8-e3a9-4843-adb8-e4d60060ced0",
+  "data": {
+    "title": "Fatal accidents in non-coal mines by cause and responsibility in 2015",
+    "year": 2015,
+    "mine_type": "non-coal",
+    "accident_data": [
+      {
+        "responsibility_major_cause_group": "Misadventure",
+        "cause_group_1": 0,
+        "cause_group_2": 0,
+        "cause_group_3": 0,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 1,
+        "cause_group_9": 0,
+        "row_total": 1
+      },
+      {
+        "responsibility_major_cause_group": "Management",
+        "cause_group_1": 2,
+        "cause_group_2": 0,
+        "cause_group_3": 2,
+        "cause_group_4": 1,
+        "cause_group_5": 0,
+        "cause_group_6": 1,
+        "cause_group_7": 1,
+        "cause_group_8": 5,
+        "cause_group_9": 1,
+        "row_total": 13
+      },
+      {
+        "responsibility_major_cause_group": "Management & Sub. Sup. Staff (SSS)",
+        "cause_group_1": 4,
+        "cause_group_2": 0,
+        "cause_group_3": 2,
+        "cause_group_4": 1,
+        "cause_group_5": 0,
+        "cause_group_6": 1,
+        "cause_group_7": 0,
+        "cause_group_8": 2,
+        "cause_group_9": 1,
+        "row_total": 11
+      },
+      {
+        "responsibility_major_cause_group": "Management, SSS & Deceased",
+        "cause_group_1": 0,
+        "cause_group_2": 0,
+        "cause_group_3": 2,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 0,
+        "cause_group_9": 0,
+        "row_total": 2
+      },
+      {
+        "responsibility_major_cause_group": "Management & Coworker",
+        "cause_group_1": 0,
+        "cause_group_2": 1,
+        "cause_group_3": 4,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 0,
+        "cause_group_9": 0,
+        "row_total": 5
+      },
+      {
+        "responsibility_major_cause_group": "Management, Coworker & Deceased",
+        "cause_group_1": 0,
+        "cause_group_2": 1,
+        "cause_group_3": 0,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 0,
+        "cause_group_9": 0,
+        "row_total": 1
+      },
+      {
+        "responsibility_major_cause_group": "Management & Deceased",
+        "cause_group_1": 0,
+        "cause_group_2": 0,
+        "cause_group_3": 0,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 2,
+        "cause_group_9": 0,
+        "row_total": 2
+      },
+      {
+        "responsibility_major_cause_group": "Subordinate Supervisory Staff (SSS)",
+        "cause_group_1": 1,
+        "cause_group_2": 0,
+        "cause_group_3": 1,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 1,
+        "cause_group_8": 1,
+        "cause_group_9": 0,
+        "row_total": 4
+      },
+      {
+        "responsibility_major_cause_group": "Coworker",
+        "cause_group_1": 0,
+        "cause_group_2": 0,
+        "cause_group_3": 2,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 1,
+        "cause_group_9": 0,
+        "row_total": 3
+      },
+      {
+        "responsibility_major_cause_group": "Coworker & Deceased",
+        "cause_group_1": 0,
+        "cause_group_2": 0,
+        "cause_group_3": 1,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 0,
+        "cause_group_9": 0,
+        "row_total": 1
+      },
+      {
+        "responsibility_major_cause_group": "Deceased",
+        "cause_group_1": 0,
+        "cause_group_2": 0,
+        "cause_group_3": 1,
+        "cause_group_4": 0,
+        "cause_group_5": 0,
+        "cause_group_6": 0,
+        "cause_group_7": 0,
+        "cause_group_8": 1,
+        "cause_group_9": 0,
+        "row_total": 2
+      },
+      {
+        "responsibility_major_cause_group": "Total",
+        "cause_group_1": 7,
+        "cause_group_2": 2,
+        "cause_group_3": 15,
+        "cause_group_4": 2,
+        "cause_group_5": 0,
+        "cause_group_6": 2,
+        "cause_group_7": 1,
+        "cause_group_8": 13,
+        "cause_group_9": 3,
+        "row_total": 45
+      }
+    ]
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 1,
+      "num_document_tokens": 473,
+      "num_output_tokens": 1009
+    }
+  }
+}
