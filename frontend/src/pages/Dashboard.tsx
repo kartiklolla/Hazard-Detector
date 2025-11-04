@@ -2,16 +2,12 @@ import { Box, Card, CardContent, Chip, Grid as Grid, Stack, Typography } from '@
 import { useMemo, useState, useEffect } from 'react'
 import { CircularProgress } from '@mui/material'
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, PieChart, Pie, Cell, Legend } from 'recharts'
-import { ComposableMap, Geographies, Geography, ZoomableGroup } from '@vnedyalk0v/react19-simple-maps'
-import ZoomInIcon from '@mui/icons-material/ZoomIn'
-import ZoomOutIcon from '@mui/icons-material/ZoomOut'
-import IconButton from '@mui/material/IconButton'
+import { ComposableMap, Geographies, Geography } from '@vnedyalk0v/react19-simple-maps'
 import dayjs, { Dayjs } from 'dayjs'
 import { DatePicker } from '@mui/x-date-pickers'
 
 // load topojson from local public folder to avoid CDN/CORS issues
 const INDIA_TOPO = '/countries-110m.json'
-const INDIA_STATES = '/india-states.json'
 
 const kpi = [
 	{ label: 'Total Incidents (2016-2022)', value: 1243, delta: -6 },
@@ -47,85 +43,32 @@ export default function Dashboard() {
 	const [geoError, setGeoError] = useState<string | null>(null)
 	const [geoLoading, setGeoLoading] = useState(false)
 
-	const [indiaStatesData, setIndiaStatesData] = useState<any | null>(null)
-	const [indiaStatesLoading, setIndiaStatesLoading] = useState(false)
-	const [indiaStatesError, setIndiaStatesError] = useState<string | null>(null)
-
-	const [zoom, setZoom] = useState<number>(1.2)
-	const [center, setCenter] = useState<[number, number]>([78.9629, 22.5937])
-
 	useEffect(() => {
 		let cancelled = false
-			{indiaStatesData ? (
-				<ComposableMap
-					projection="geoMercator"
-					projectionConfig={{ center, scale: 1800 }}
-					style={{ width: '100%', height: '100%' }}
-				>
-					<ZoomableGroup
-						zoom={zoom}
-						center={center}
-						onMoveEnd={({ coordinates, k }: any) => {
-							if (Array.isArray(coordinates)) setCenter([coordinates[0], coordinates[1]])
-							if (typeof k === 'number') setZoom(k)
-						}}
-					>
-						<Geographies geography={indiaStatesData}>
-							{({ geographies, projection }: any) => (
-								<>
-									{geographies.map((geo: any) => (
-										<Geography
-											key={geo.rsmKey}
-											geography={geo}
-											stroke="#092023"
-											strokeWidth={0.6}
-											style={{
-												default: { fill: '#0b1f22', outline: 'none' },
-												hover: { fill: '#12494b', outline: 'none' },
-												pressed: { fill: '#12494b', outline: 'none' }
-											}}
-										/>
-									))}
-									{/* State labels when sufficiently zoomed in */}
-									{zoom >= 3 && geographies.map((geo: any) => {
-										// compute a simple centroid from first polygon ring
-										const coords = (geo.geometry?.coordinates && geo.geometry.coordinates[0] && geo.geometry.coordinates[0][0])
-											? geo.geometry.coordinates[0][0]
-											: Array.isArray(geo.geometry?.coordinates?.[0]) ? geo.geometry.coordinates[0] : null
-										let lon = 0, lat = 0
-										if (coords && Array.isArray(coords)) {
-											const sample = coords as number[][]
-											const n = Math.min(sample.length, 10)
-											for (let i = 0; i < n; i++) { lon += sample[i][0]; lat += sample[i][1] }
-											lon /= n; lat /= n
-										} else if (geo.properties && geo.properties.centroid) {
-											lon = geo.properties.centroid[0]; lat = geo.properties.centroid[1]
-										} else {
-											return null
-										}
+		setGeoLoading(true)
+		fetch(INDIA_TOPO)
+			.then((res) => {
+				if (!res.ok) throw new Error(`Failed to fetch topojson: ${res.status} ${res.statusText}`)
+				return res.json()
+			})
+			.then((data) => {
+				if (!cancelled) setGeoData(data)
+			})
+			.catch((err) => {
+				console.error('Error loading topojson', err)
+				if (!cancelled) setGeoError(String(err?.message ?? err))
+			})
+			.finally(() => {
+				if (!cancelled) setGeoLoading(false)
+			})
 
-										const [x, y] = projection([lon, lat])
-										return (
-											<g key={`label-${geo.rsmKey}`} transform={`translate(${x}, ${y})`}>
-												<text x={0} y={0} textAnchor="middle" fontSize={12} fill="#e6f1ee" style={{ pointerEvents: 'none' }}>{geo.properties && (geo.properties.st_nm || geo.properties.NAME_1 || geo.properties.name || geo.properties.NAME)}</text>
-											</g>
-										)
-									})}
-								</>
-							)}
-						</Geographies>
-					</ZoomableGroup>
-					{/* zoom controls */}
-					<Box sx={{ position: 'absolute', right: 12, top: 12, display: 'flex', flexDirection: 'column', gap: 1 }}>
-						<IconButton size="small" onClick={() => setZoom((z) => Math.min(8, z * 1.5))} sx={{ bgcolor: 'background.paper', color: 'text.primary' }}>
-							<ZoomInIcon />
-						</IconButton>
-						<IconButton size="small" onClick={() => setZoom((z) => Math.max(1, z / 1.5))} sx={{ bgcolor: 'background.paper', color: 'text.primary' }}>
-							<ZoomOutIcon />
-						</IconButton>
-					</Box>
-				</ComposableMap>
-			) : geoData ? (
+		return () => {
+			cancelled = true
+		}
+	}, [])
+
+	// Sample heat points (latitude, longitude) focused in Jharkhand with intensity [0..1]
+	const heatPoints = [
 		{ name: 'Ranchi', coordinates: [85.3096, 23.3441], intensity: 0.9 },
 		{ name: 'Dhanbad', coordinates: [86.4304, 23.7957], intensity: 0.85 },
 		{ name: 'Jamshedpur', coordinates: [86.2029, 22.8046], intensity: 0.7 },
