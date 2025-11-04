@@ -188,35 +188,7 @@ export default function Scraper() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2 flex-shrink-0">
-                  {source.status === "active" ? (
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="gap-2"
-                      data-testid={`button-pause-${source.id}`}
-                    >
-                      <Pause className="h-3 w-3" /> Pause
-                    </Button>
-                  ) : (
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="gap-2"
-                      data-testid={`button-resume-${source.id}`}
-                    >
-                      <Play className="h-3 w-3" /> Resume
-                    </Button>
-                  )}
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="gap-2"
-                    data-testid={`button-run-${source.id}`}
-                  >
-                    <RefreshCw className="h-3 w-3" /> Run Now
-                  </Button>
-                </div>
+                <div className="flex-shrink-0 text-xs text-muted-foreground">Configured</div>
               </div>
             ))}
           </div>

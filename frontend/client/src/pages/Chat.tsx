@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 // initial values will be loaded from the server
 const defaultSuggested = [
-  "Show all methane-related accidents in 2021",
+  "Show all methane-related accidents in 2015",
   "Which mines exceeded safety thresholds in Q3 2024?",
   "Generate inspection schedule for high-risk sites",
   "Compare incident rates between Jharkhand and Odisha",
@@ -159,7 +159,7 @@ export default function Chat() {
             <div className="text-xs space-y-2">
               <p className="font-medium">Example Query:</p>
               <code className="block p-2 bg-card rounded text-xs border">
-                "Show me all methane-related accidents in 2021 in underground coal mines"
+                "Show me all methane-related accidents in 2015 in underground coal mines"
               </code>
             </div>
           </CardContent>

@@ -7,18 +7,24 @@
     "locationsMonitored": 127
   },
   "incidentData": [
-    { "month": "Jan", "incidents": 12 },
-    { "month": "Feb", "incidents": 8 },
-    { "month": "Mar", "incidents": 15 },
-    { "month": "Apr", "incidents": 6 },
-    { "month": "May", "incidents": 11 },
-    { "month": "Jun", "incidents": 9 }
+    { "month": "Jan", "incidents": 1 },
+    { "month": "Feb", "incidents": 1 },
+    { "month": "Mar", "incidents": 0 },
+    { "month": "Apr", "incidents": 0 },
+    { "month": "May", "incidents": 1 },
+    { "month": "Jun", "incidents": 0 },
+    { "month": "Jul", "incidents": 1 },
+    { "month": "Aug", "incidents": 1 },
+    { "month": "Sep", "incidents": 2 },
+    { "month": "Oct", "incidents": 1 },
+    { "month": "Nov", "incidents": 2 },
+    { "month": "Dec", "incidents": 0 }
   ],
   "severityData": [
-    { "name": "Critical", "value": 45, "color": "hsl(var(--destructive))" },
-    { "name": "High", "value": 89, "color": "hsl(var(--chart-4))" },
-    { "name": "Medium", "value": 112, "color": "hsl(var(--chart-2))" },
-    { "name": "Low", "value": 54, "color": "hsl(var(--chart-5))" }
+    { "name": "Critical", "value": 90, "color": "hsl(var(--destructive))" },
+    { "name": "High", "value": 35, "color": "hsl(var(--chart-4))" },
+    { "name": "Medium", "value": 0, "color": "hsl(var(--chart-2))" },
+    { "name": "Low", "value": 0, "color": "hsl(var(--chart-5))" }
   ],
   "newsUpdates": [
     { "id": 1, "title": "DGMS releases new safety guidelines for underground coal mines", "date": "2024-11-02", "source": "DGMS Portal" },
