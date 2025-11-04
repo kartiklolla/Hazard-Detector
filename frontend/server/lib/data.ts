@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const dataDir = path.resolve(import.meta.dirname, "data");
+// data files live in the sibling `server/data` directory (one level up from lib)
+const dataDir = path.resolve(import.meta.dirname, "..", "data");
 
 export async function readJsonFile<T = any>(filename: string): Promise<T> {
   const fp = path.join(dataDir, filename);
