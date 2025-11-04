@@ -1,0 +1,1327 @@
+{
+  "run_id": "b0cf0f6e-12ac-4443-858a-348f21097e8b",
+  "extraction_agent_id": "d6e7ae74-be72-4919-b40b-dd78a0c21880",
+  "data": {
+    "mineral_data": [
+      {
+        "mineral": "COPPER",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_seriously_injured": 4
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 2.07
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_seriously_injured": 1
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0.41
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 2
+        },
+        "serious_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_seriously_injured": 3
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.38,
+          "serious_injury_rate": 1.91
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_seriously_injured": 8
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.33,
+          "serious_injury_rate": 2.61
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_seriously_injured": 3
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 1.03
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 8,
+          "no_of_persons_seriously_injured": 8
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.31,
+          "serious_injury_rate": 2.44
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.26,
+          "serious_injury_rate": 0.53
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 0,
+          "no_of_persons_killed": 0,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 7,
+          "no_of_persons_seriously_injured": 8
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 2.14
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_seriously_injured": 1
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.27,
+          "serious_injury_rate": 0.27
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.39,
+          "serious_injury_rate": 0.79
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 24,
+          "no_of_persons_seriously_injured": 24
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.31,
+          "serious_injury_rate": 7.43
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 12,
+          "no_of_persons_seriously_injured": 12
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.31,
+          "serious_injury_rate": 3.66
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 14,
+          "no_of_persons_seriously_injured": 14
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.3,
+          "serious_injury_rate": 4.24
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 21,
+          "no_of_persons_seriously_injured": 22
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 1.22,
+          "serious_injury_rate": 7.03
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 24,
+          "no_of_persons_seriously_injured": 28
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 8.33
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 7,
+          "no_of_persons_seriously_injured": 7
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.29,
+          "serious_injury_rate": 2.01
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 4
+        },
+        "serious_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_seriously_injured": 16
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 1,
+          "serious_injury_rate": 5.01
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 6,
+          "no_of_persons_seriously_injured": 6
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 1.48
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 10,
+          "no_of_persons_seriously_injured": 10
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.67,
+          "serious_injury_rate": 2.23
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 2,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 12,
+          "no_of_persons_seriously_injured": 12
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.35,
+          "serious_injury_rate": 2.26
+        }
+      },
+      {
+        "mineral": "GALENA",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_seriously_injured": 4
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.59,
+          "serious_injury_rate": 0.79
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 10,
+          "no_of_persons_seriously_injured": 10
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 3.21
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_seriously_injured": 9
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.32,
+          "serious_injury_rate": 3.19
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 6,
+          "no_of_persons_seriously_injured": 17
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.33,
+          "serious_injury_rate": 5.55
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_seriously_injured": 9
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 2.94
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_seriously_injured": 15
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.49,
+          "serious_injury_rate": 7.4
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 11,
+          "no_of_persons_seriously_injured": 11
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 3.62
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.29,
+          "serious_injury_rate": 0.59
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 0,
+          "no_of_persons_killed": 0,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0.54
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_seriously_injured": 4
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 1.73,
+          "serious_injury_rate": 1.11
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_killed": 16,
+          "no_of_persons_seriously_injured": 2
+        },
+        "serious_accidents": {
+          "no_of_accidents": 34,
+          "no_of_persons_seriously_injured": 34
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.43,
+          "serious_injury_rate": 0.96
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_killed": 21,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 21,
+          "no_of_persons_seriously_injured": 21
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.51,
+          "serious_injury_rate": 0.53
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": 14,
+          "no_of_persons_killed": 14,
+          "no_of_persons_seriously_injured": 4
+        },
+        "serious_accidents": {
+          "no_of_accidents": 22,
+          "no_of_persons_seriously_injured": 23
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.34,
+          "serious_injury_rate": 0.65
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": 11,
+          "no_of_persons_killed": 11,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 19,
+          "no_of_persons_seriously_injured": 20
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.25,
+          "serious_injury_rate": 0.47
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": 8,
+          "no_of_persons_killed": 8,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 20,
+          "no_of_persons_seriously_injured": 20
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.17,
+          "serious_injury_rate": 0.42
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_killed": 11,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_seriously_injured": 9
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.23,
+          "serious_injury_rate": 0.19
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 19,
+          "no_of_persons_seriously_injured": 19
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.08,
+          "serious_injury_rate": 0.36
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 6,
+          "no_of_persons_seriously_injured": 6
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.05,
+          "serious_injury_rate": 0.11
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 6,
+          "no_of_persons_seriously_injured": 6
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.09,
+          "serious_injury_rate": 0.11
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_seriously_injured": 14
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.06,
+          "serious_injury_rate": 0.3
+        }
+      },
+      {
+        "mineral": "IRON",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 8,
+          "no_of_persons_seriously_injured": 9
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.1,
+          "serious_injury_rate": 0.17
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": 7,
+          "no_of_persons_killed": 7,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_seriously_injured": 9
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.27,
+          "serious_injury_rate": 0.35
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": 12,
+          "no_of_persons_killed": 15,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 6,
+          "no_of_persons_seriously_injured": 6
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.59,
+          "serious_injury_rate": 0.27
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_killed": 13,
+          "no_of_persons_seriously_injured": 2
+        },
+        "serious_accidents": {
+          "no_of_accidents": 7,
+          "no_of_persons_seriously_injured": 7
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.47,
+          "serious_injury_rate": 0.32
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": 9,
+          "no_of_persons_killed": 9,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_seriously_injured": 3
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.32,
+          "serious_injury_rate": 0.11
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 2,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_seriously_injured": 4
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.07,
+          "serious_injury_rate": 0.14
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_seriously_injured": 4
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.18,
+          "serious_injury_rate": 0.14
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_seriously_injured": 5
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.14,
+          "serious_injury_rate": 0.17
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_seriously_injured": 4
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.13,
+          "serious_injury_rate": 0.13
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_seriously_injured": 3
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.09,
+          "serious_injury_rate": 0.09
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 2
+        },
+        "serious_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_seriously_injured": 3
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.12,
+          "serious_injury_rate": 0.15
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_seriously_injured": 1
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.13,
+          "serious_injury_rate": 0.03
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_seriously_injured": 5
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0.34
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 2,
+          "no_of_persons_seriously_injured": 3
+        },
+        "serious_accidents": {
+          "no_of_accidents": 7,
+          "no_of_persons_seriously_injured": 8
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.15,
+          "serious_injury_rate": 0.84
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_seriously_injured": 5
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.07,
+          "serious_injury_rate": 0.37
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.3,
+          "serious_injury_rate": 0.15
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_killed": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0,
+          "serious_injury_rate": 0.15
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 2,
+          "no_of_persons_seriously_injured": null
+        },
+        "serious_accidents": {
+          "no_of_accidents": null,
+          "no_of_persons_seriously_injured": null
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.14,
+          "serious_injury_rate": 0
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_seriously_injured": 2
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.19,
+          "serious_injury_rate": 0.19
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_seriously_injured": 5
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.24,
+          "serious_injury_rate": 0.3
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 2,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 0,
+          "no_of_persons_seriously_injured": 0
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.11,
+          "serious_injury_rate": 0
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_seriously_injured": 1
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.05,
+          "serious_injury_rate": 0.05
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_seriously_injured": 1
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.04,
+          "serious_injury_rate": 0.04
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2005,
+        "fatal_accidents": {
+          "no_of_accidents": 1,
+          "no_of_persons_killed": 1,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_seriously_injured": 15
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.05,
+          "serious_injury_rate": 0.78
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2006,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_seriously_injured": 15
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.29,
+          "serious_injury_rate": 1.08
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2007,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 16,
+          "no_of_persons_seriously_injured": 16
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.16,
+          "serious_injury_rate": 0.83
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2008,
+        "fatal_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_killed": 6,
+          "no_of_persons_seriously_injured": 2
+        },
+        "serious_accidents": {
+          "no_of_accidents": 20,
+          "no_of_persons_seriously_injured": 20
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.25,
+          "serious_injury_rate": 0.93
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2009,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 18,
+          "no_of_persons_seriously_injured": 18
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.12,
+          "serious_injury_rate": 0.72
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2010,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 4,
+          "no_of_persons_seriously_injured": 1
+        },
+        "serious_accidents": {
+          "no_of_accidents": 16,
+          "no_of_persons_seriously_injured": 16
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.14,
+          "serious_injury_rate": 0.58
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2011,
+        "fatal_accidents": {
+          "no_of_accidents": 3,
+          "no_of_persons_killed": 3,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 17,
+          "no_of_persons_seriously_injured": 17
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.11,
+          "serious_injury_rate": 0.62
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2012,
+        "fatal_accidents": {
+          "no_of_accidents": 2,
+          "no_of_persons_killed": 2,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 10,
+          "no_of_persons_seriously_injured": 10
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.09,
+          "serious_injury_rate": 0.44
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2013,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": 3
+        },
+        "serious_accidents": {
+          "no_of_accidents": 15,
+          "no_of_persons_seriously_injured": 15
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.19,
+          "serious_injury_rate": 0.69
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2014,
+        "fatal_accidents": {
+          "no_of_accidents": 5,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": 0
+        },
+        "serious_accidents": {
+          "no_of_accidents": 10,
+          "no_of_persons_seriously_injured": 10
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.2,
+          "serious_injury_rate": 0.4
+        }
+      },
+      {
+        "mineral": "OIL",
+        "year": 2015,
+        "fatal_accidents": {
+          "no_of_accidents": 4,
+          "no_of_persons_killed": 5,
+          "no_of_persons_seriously_injured": 10
+        },
+        "serious_accidents": {
+          "no_of_accidents": 13,
+          "no_of_persons_seriously_injured": 15
+        },
+        "rates_per_1000_persons_employed": {
+          "death_rate": 0.18,
+          "serious_injury_rate": 0.88
+        }
+      }
+    ]
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 3,
+      "num_document_tokens": 3545,
+      "num_output_tokens": 7313
+    }
+  }
+}
