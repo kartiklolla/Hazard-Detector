@@ -1,0 +1,810 @@
+{
+  "run_id": "c29823db-bd5a-4809-a5e2-d3c5072faf93",
+  "extraction_agent_id": "919dc7e8-e3a9-4843-adb8-e4d60060ced0",
+  "data": {
+    "accidents": [
+      {
+        "serial_number": 1,
+        "date_of_accident": "02/02/01",
+        "mine_name": "A. Subha Naidy & Co. Mica",
+        "persons_killed": 9,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 2,
+        "date_of_accident": "11/04/02",
+        "mine_name": "Redhill Ruby",
+        "persons_killed": 5,
+        "persons_seriously_injured": 4,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 3,
+        "date_of_accident": "26/09/04",
+        "mine_name": "Hannumanoya/41B Mica",
+        "persons_killed": 7,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 4,
+        "date_of_accident": "29/12/06",
+        "mine_name": "Salayakhad Mica",
+        "persons_killed": 4,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 5,
+        "date_of_accident": "24/01/07",
+        "mine_name": "Chirki Mica",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 6,
+        "date_of_accident": "10/02/08",
+        "mine_name": "Murwara Limestone",
+        "persons_killed": 7,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 7,
+        "date_of_accident": "06/12/10",
+        "mine_name": "Shivrajpur Manganese",
+        "persons_killed": 12,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 8,
+        "date_of_accident": "26/04/11",
+        "mine_name": "Charki Mica",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 9,
+        "date_of_accident": "04/06/12",
+        "mine_name": "Make Myebya Wolfrom",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 10,
+        "date_of_accident": "21/10/13",
+        "mine_name": "North Anantapur Gold",
+        "persons_killed": 7,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 11,
+        "date_of_accident": "24/07/14",
+        "mine_name": "Maya Salt",
+        "persons_killed": 5,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 12,
+        "date_of_accident": "05/11/14",
+        "mine_name": "Tadaiya Mica",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Irruption of Water"
+      },
+      {
+        "serial_number": 13,
+        "date_of_accident": "12/08/16",
+        "mine_name": "Wazunchaung Wolfram",
+        "persons_killed": 9,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Miscellaneous on Surface"
+      },
+      {
+        "serial_number": 14,
+        "date_of_accident": "13/05/19",
+        "mine_name": "Aulajhari Manganese",
+        "persons_killed": 4,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 15,
+        "date_of_accident": "28/01/20",
+        "mine_name": "Hsaikho (Mile 28.6) Limestone",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 16,
+        "date_of_accident": "13/09/20",
+        "mine_name": "Bhalua Mica",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Suffocation by Gases"
+      },
+      {
+        "serial_number": 17,
+        "date_of_accident": "18/09/20",
+        "mine_name": "Badwin Lead-Silver",
+        "persons_killed": 11,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "In Shaft Ascending/Descending"
+      },
+      {
+        "serial_number": 18,
+        "date_of_accident": "19/02/23",
+        "mine_name": "Bawdwin Silver-Lead-Zinc",
+        "persons_killed": 6,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "In Shaft Ascending/Descending"
+      },
+      {
+        "serial_number": 19,
+        "date_of_accident": "20/02/23",
+        "mine_name": "Cherangcode Mica",
+        "persons_killed": 7,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 20,
+        "date_of_accident": "01/03/27",
+        "mine_name": "Telewadi Manganese",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 21,
+        "date_of_accident": "26/05/27",
+        "mine_name": "Bawdwin Silver-Lead",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Suffocation by Gases"
+      },
+      {
+        "serial_number": 22,
+        "date_of_accident": "10/09/27",
+        "mine_name": "Tarki Limestone",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 23,
+        "date_of_accident": "12/10/27",
+        "mine_name": "Kyauktalone Limestone",
+        "persons_killed": 9,
+        "persons_seriously_injured": 18,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 24,
+        "date_of_accident": "16/05/29",
+        "mine_name": "Bawdwin Silver-Lead-Zinc",
+        "persons_killed": 10,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 25,
+        "date_of_accident": "06/01/31",
+        "mine_name": "Kanbank Tin and Wolfram",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 26,
+        "date_of_accident": "14/09/31",
+        "mine_name": "Taungpila Tin",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 27,
+        "date_of_accident": "12/04/32",
+        "mine_name": "Lady Rangi Mica",
+        "persons_killed": 19,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Suffocation by Gases"
+      },
+      {
+        "serial_number": 28,
+        "date_of_accident": "24/08/36",
+        "mine_name": "Wagon North Tin & Wolfram",
+        "persons_killed": 7,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 29,
+        "date_of_accident": "26/02/37",
+        "mine_name": "Salaiya Pahari Limestone",
+        "persons_killed": 9,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 30,
+        "date_of_accident": "22/12/38",
+        "mine_name": "Matauni Mica",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 31,
+        "date_of_accident": "05/10/40",
+        "mine_name": "Porcupine Steatite",
+        "persons_killed": 4,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 32,
+        "date_of_accident": "15/07/43",
+        "mine_name": "Tatahwa Mica",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Falling Down Shaft"
+      },
+      {
+        "serial_number": 33,
+        "date_of_accident": "07/11/45",
+        "mine_name": "Noamundi Iron",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 34,
+        "date_of_accident": "13/05/46",
+        "mine_name": "Kaza Limestone",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 35,
+        "date_of_accident": "06/12/46",
+        "mine_name": "Pattabhirama & Margin Mica",
+        "persons_killed": 8,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Irruption of Water"
+      },
+      {
+        "serial_number": 36,
+        "date_of_accident": "21/01/49",
+        "mine_name": "Kharonia Mica",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 37,
+        "date_of_accident": "08/07/50",
+        "mine_name": "Basorhai Diamonds",
+        "persons_killed": 6,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 38,
+        "date_of_accident": "14/06/51",
+        "mine_name": "Mysore Gold",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 39,
+        "date_of_accident": "11/10/51",
+        "mine_name": "Oorgaum Gold",
+        "persons_killed": 9,
+        "persons_seriously_injured": 9,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 40,
+        "date_of_accident": "02/11/51",
+        "mine_name": "Champion Reef Gold",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 41,
+        "date_of_accident": "19/04/52",
+        "mine_name": "Champion Reef Gold",
+        "persons_killed": 20,
+        "persons_seriously_injured": 4,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 42,
+        "date_of_accident": "30/06/52",
+        "mine_name": "Champion Reef Gold",
+        "persons_killed": 10,
+        "persons_seriously_injured": 5,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 43,
+        "date_of_accident": "01/05/53",
+        "mine_name": "Lanjhera Manganese",
+        "persons_killed": 5,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 44,
+        "date_of_accident": "21/06/54",
+        "mine_name": "Kachhidhana Manganese",
+        "persons_killed": 5,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 45,
+        "date_of_accident": "30/11/54",
+        "mine_name": "Mysore Gold",
+        "persons_killed": 4,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 46,
+        "date_of_accident": "23/12/54",
+        "mine_name": "Venkajigudda(Vajra)Manganese",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 47,
+        "date_of_accident": "27/05/55",
+        "mine_name": "Champion Reef Gold",
+        "persons_killed": 10,
+        "persons_seriously_injured": 8,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 48,
+        "date_of_accident": "21/04/56",
+        "mine_name": "Yeshwantanagar Manganese",
+        "persons_killed": 5,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 49,
+        "date_of_accident": "18/08/56",
+        "mine_name": "Tikuri Bauxite",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 50,
+        "date_of_accident": "22/01/57",
+        "mine_name": "Madadakere Manganese",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 51,
+        "date_of_accident": "29/09/57",
+        "mine_name": "Rajupalem Barytes",
+        "persons_killed": 11,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 52,
+        "date_of_accident": "19/02/58",
+        "mine_name": "Aytemvalasa Manganese",
+        "persons_killed": 7,
+        "persons_seriously_injured": 3,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 53,
+        "date_of_accident": "12/05/59",
+        "mine_name": "Siddimella Steatite",
+        "persons_killed": 8,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 54,
+        "date_of_accident": "14/05/59",
+        "mine_name": "Serima White Earth",
+        "persons_killed": 4,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 55,
+        "date_of_accident": "26/06/61",
+        "mine_name": "Gua Iron",
+        "persons_killed": 4,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 56,
+        "date_of_accident": "24/03/62",
+        "mine_name": "Champion Reef Gold",
+        "persons_killed": 4,
+        "persons_seriously_injured": 4,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 57,
+        "date_of_accident": "01/06/63",
+        "mine_name": "Junawani Manganese",
+        "persons_killed": 5,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 58,
+        "date_of_accident": "13/08/63",
+        "mine_name": "Nundydroog Gold",
+        "persons_killed": 5,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 59,
+        "date_of_accident": "16/02/64",
+        "mine_name": "Sonnedenhalli Iron",
+        "persons_killed": 4,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 60,
+        "date_of_accident": "13/10/64",
+        "mine_name": "Patnibona (Bakudih) Stone",
+        "persons_killed": 6,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 61,
+        "date_of_accident": "06/02/66",
+        "mine_name": "Mysore Gold",
+        "persons_killed": 7,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Overwinding"
+      },
+      {
+        "serial_number": 62,
+        "date_of_accident": "02/08/66",
+        "mine_name": "Borgafall Iron",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 63,
+        "date_of_accident": "25/12/66",
+        "mine_name": "Venkateshwara Beryl & Mica",
+        "persons_killed": 6,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 64,
+        "date_of_accident": "06/06/68",
+        "mine_name": "Sarvodaya Stone",
+        "persons_killed": 7,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 65,
+        "date_of_accident": "19/11/69",
+        "mine_name": "Morija Iron",
+        "persons_killed": 4,
+        "persons_seriously_injured": 3,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 66,
+        "date_of_accident": "14/10/70",
+        "mine_name": "Bhadrasai Manganese",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 67,
+        "date_of_accident": "29/01/71",
+        "mine_name": "Bhatti Badarpur Stone",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 68,
+        "date_of_accident": "20/06/72",
+        "mine_name": "Balawali Mica",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Roof"
+      },
+      {
+        "serial_number": 69,
+        "date_of_accident": "22/08/78",
+        "mine_name": "Kukda Limestone",
+        "persons_killed": 7,
+        "persons_seriously_injured": 6,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 70,
+        "date_of_accident": "10/05/80",
+        "mine_name": "Kalidungri Dolomite",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 71,
+        "date_of_accident": "17/08/80",
+        "mine_name": "Bhatti Badarpur Stone",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 72,
+        "date_of_accident": "08/09/83",
+        "mine_name": "Manoharpur Iron",
+        "persons_killed": 4,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Truck"
+      },
+      {
+        "serial_number": 73,
+        "date_of_accident": "04/04/84",
+        "mine_name": "Surda Copper",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Nitrous Fumes"
+      },
+      {
+        "serial_number": 74,
+        "date_of_accident": "30/05/84",
+        "mine_name": "Ahmedabad Oil Project",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fire"
+      },
+      {
+        "serial_number": 75,
+        "date_of_accident": "22/02/86",
+        "mine_name": "Rekha Fluorspar",
+        "persons_killed": 8,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 76,
+        "date_of_accident": "15/11/88",
+        "mine_name": "Ankleshwar Oil Project",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Outbreak of Fire"
+      },
+      {
+        "serial_number": 77,
+        "date_of_accident": "14/07/89",
+        "mine_name": "Nundydroog Gold",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Rock Burst"
+      },
+      {
+        "serial_number": 78,
+        "date_of_accident": "30/05/90",
+        "mine_name": "Bhatti Badarpur Stone",
+        "persons_killed": 7,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 79,
+        "date_of_accident": "22/06/91",
+        "mine_name": "Bandu Basaria Limestone",
+        "persons_killed": 6,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Overhangs"
+      },
+      {
+        "serial_number": 80,
+        "date_of_accident": "11/07/93",
+        "mine_name": "Pali Silica Sand",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 81,
+        "date_of_accident": "25/10/93",
+        "mine_name": "Pokarna Granite",
+        "persons_killed": 5,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 82,
+        "date_of_accident": "09/07/94",
+        "mine_name": "Maruthi Manganese",
+        "persons_killed": 4,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 83,
+        "date_of_accident": "28/08/94",
+        "mine_name": "Rajpura Dariba Galena & Sphal.",
+        "persons_killed": 13,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Irruption of Water"
+      },
+      {
+        "serial_number": 84,
+        "date_of_accident": "16/02/95",
+        "mine_name": "Pali Silica Sand",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 85,
+        "date_of_accident": "08/11/96",
+        "mine_name": "God Granite",
+        "persons_killed": 4,
+        "persons_seriously_injured": 6,
+        "cause_of_accident": "Explosives"
+      },
+      {
+        "serial_number": 86,
+        "date_of_accident": "17/04/99",
+        "mine_name": "Barkundi Soapstone No. 1",
+        "persons_killed": 6,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 87,
+        "date_of_accident": "21/04/01",
+        "mine_name": "Jogogoria Stone Mine",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Explosion/Ignition of Gas"
+      },
+      {
+        "serial_number": 88,
+        "date_of_accident": "02/06/02",
+        "mine_name": "Borli Limestone Mine",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 89,
+        "date_of_accident": "18/11/02",
+        "mine_name": "Devka Harmada Cheja Pathar Mine",
+        "persons_killed": 5,
+        "persons_seriously_injured": 2,
+        "cause_of_accident": "Fall of Overhang"
+      },
+      {
+        "serial_number": 90,
+        "date_of_accident": "11/03/06",
+        "mine_name": "Surya Granite Opencast Mine",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Object"
+      },
+      {
+        "serial_number": 91,
+        "date_of_accident": "12/09/06",
+        "mine_name": "Tollem Group Iron Ore Mine",
+        "persons_killed": 6,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 92,
+        "date_of_accident": "10/07/07",
+        "mine_name": "Mandodi Limestone Mine",
+        "persons_killed": 5,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 93,
+        "date_of_accident": "12/05/08",
+        "mine_name": "SMS Infrastructure Ltd. Stone",
+        "persons_killed": 9,
+        "persons_seriously_injured": 20,
+        "cause_of_accident": "Other explosive accident"
+      },
+      {
+        "serial_number": 94,
+        "date_of_accident": "25/02/10",
+        "mine_name": "Hamsa Mineral Granite Mine",
+        "persons_killed": 14,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 95,
+        "date_of_accident": "26/03/10",
+        "mine_name": "Bharkundi No. 1 Soapstone Mine",
+        "persons_killed": 8,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Sides"
+      },
+      {
+        "serial_number": 96,
+        "date_of_accident": "24/04/10",
+        "mine_name": "Prashant Mining Quartz & Felspar Mine",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Overhang"
+      },
+      {
+        "serial_number": 97,
+        "date_of_accident": "27/08/10",
+        "mine_name": "Deokhera Garnet Mine",
+        "persons_killed": 5,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Overhang"
+      },
+      {
+        "serial_number": 98,
+        "date_of_accident": "23/07/13",
+        "mine_name": "Granite Buid Stone Quarry SY 376/3-2",
+        "persons_killed": 4,
+        "persons_seriously_injured": 1,
+        "cause_of_accident": "Fall of Overhang"
+      },
+      {
+        "serial_number": 99,
+        "date_of_accident": "26/11/14",
+        "mine_name": "PIPALJORI STONE MINE",
+        "persons_killed": 4,
+        "persons_seriously_injured": 0,
+        "cause_of_accident": "Fall of Slides"
+      }
+    ]
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 3,
+      "num_document_tokens": 3660,
+      "num_output_tokens": 5007
+    }
+  }
+}
