@@ -1,67 +1,183 @@
 [
   {
-    "id": "INC-2024-001",
-    "date": "2024-11-02",
-    "location": "Jharkhand Coal Mine #4",
-    "state": "Jharkhand",
-    "mineType": "Underground Coal",
-    "incidentType": "Methane Leak",
+    "id": "DS-4.12-3",
+    "date": "16/05/15",
+    "location": "KHETRI COPPER MINE",
+    "state": "Rajasthan",
+    "district": "Jhunjhunu",
+    "mineType": "Metalliferous",
+    "incidentType": "Fall of Roof",
     "severity": "Critical",
-    "fatalities": 0,
-    "injuries": 3,
-    "description": "Methane accumulation detected in shaft 4B during routine ventilation check",
-    "rootCause": "Ventilation system malfunction"
-  },
-  {
-    "id": "INC-2024-002",
-    "date": "2024-11-01",
-    "location": "Odisha Iron Ore Mine",
-    "state": "Odisha",
-    "mineType": "Open Pit",
-    "incidentType": "Equipment Failure",
-    "severity": "High",
-    "fatalities": 0,
-    "injuries": 1,
-    "description": "Excavator hydraulic system failure during loading operations",
-    "rootCause": "Insufficient maintenance schedule"
-  },
-  {
-    "id": "INC-2024-003",
-    "date": "2024-10-31",
-    "location": "Chhattisgarh Underground",
-    "state": "Chhattisgarh",
-    "mineType": "Underground Coal",
-    "incidentType": "Ground Movement",
-    "severity": "Medium",
-    "fatalities": 0,
+    "fatalities": 1,
     "injuries": 0,
-    "description": "Minor roof subsidence in abandoned section",
-    "rootCause": "Natural geological stress"
+    "description": "While two drillers were connecting compressed air hose-pipe to jack hammer drill machine at a distance of 3.5m from the development face in an underground Metalliferous Mine, a mass of stone measuring about 1.0m x 0.5m x 0.35m fell from the unsupported roof from a height of about 4.0m on one of the drillers inflicting serious bodily injuries to him to which he succumbed after about seven hours.",
+    "rootCause": "inflicting serious bodily injur",
+    "recommendation": "Had the workings within 9.0m of the face been kept secured by rock bolts... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Vijendra Singh", "role": "Driller", "gender": "Male", "age": 32 }
+    ]
   },
   {
-    "id": "INC-2024-004",
-    "date": "2024-10-30",
-    "location": "West Bengal Surface Mine",
-    "state": "West Bengal",
-    "mineType": "Surface",
-    "incidentType": "Transportation",
-    "severity": "Low",
-    "fatalities": 0,
+    "id": "DS-4.12-4",
+    "date": "28/11/15",
+    "location": "KAYAD UNDERGROUND MINE",
+    "state": "Rajasthan",
+    "district": "Ajmer",
+    "mineType": "Metalliferous",
+    "incidentType": "Fall of Roof",
+    "severity": "Critical",
+    "fatalities": 1,
     "injuries": 0,
-    "description": "Haul truck minor collision with stationary equipment",
-    "rootCause": "Driver visibility issue"
+    "description": "While a crew of four General Mazdoors standing on a scissor lift was charging ring holes in hanging wall drive of a stope, a mass of rock separated from the roof of the drive... broke into two pieces and fell down over the platform of scissor lift from a height of about 1.5m, inflicting serious bodily injury to one of them to which he succumbed on way to hospital.",
+    "rootCause": null,
+    "recommendation": "Had the roof been properly examined to ascertain the condition thereof... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Nana Lal Mali", "role": "Gen worker", "gender": "Male", "age": 24 }
+    ]
   },
   {
-    "id": "INC-2024-005",
-    "date": "2024-10-29",
-    "location": "Madhya Pradesh Quarry",
-    "state": "Madhya Pradesh",
-    "mineType": "Quarry",
-    "incidentType": "Fire Hazard",
-    "severity": "High",
-    "fatalities": 0,
-    "injuries": 2,
-    "description": "Electrical fire in processing plant control room",
-    "rootCause": "Aging electrical infrastructure"
+    "id": "DS-4.12-6",
+    "date": "14/01/15",
+    "location": "CHIKLA MANGANESE MINE",
+    "state": "Maharashtra",
+    "district": "Bhandara",
+    "mineType": "Underground",
+    "incidentType": "Fall of Sides (Other than Overhangs)",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "While blasted muck was being removed manually in a stope of underground manganese mine, a rock mass parted from the hanging wall side and fell over a face worker, inflicting serious bodily injuries to him to which he succumbed.",
+    "rootCause": "inflicting serious bodily injur",
+    "recommendation": "Had the hangwall side of the stope been made and kept secured... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Saras Hariram", "role": "Piece Rated Worker", "gender": "Male", "age": 43 }
+    ]
+  },
+  {
+    "id": "DS-4.12-7",
+    "date": "22/02/15",
+    "location": "MASARO KI OBERI SERPENTINE MINE",
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "mineType": "Opencast",
+    "incidentType": "Fall of Sides (Other than Overhangs)",
+    "severity": "Critical",
+    "fatalities": 2,
+    "injuries": 0,
+    "description": "While two workers were working at the top of a 6m high side... a block of marble measuring about 7m x 2m x 1.25m fell from a height of about 4.5m and buried the workers, inflicting fatal injury to both.",
+    "rootCause": "inflicting fatal",
+    "recommendation": "Had it been ensured that sides are adequately benched, sloped and secured... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Govind Meena", "role": "Worker", "gender": "Male", "age": 30 },
+      { "name": "Prakash", "role": "Worker", "gender": "Male", "age": 27 }
+    ]
+  },
+  {
+    "id": "DS-4.12-8",
+    "date": "11/08/15",
+    "location": "BILLI MARKUNDI STONE MINE",
+    "state": "Uttar Pradesh",
+    "district": "Sonebhadra",
+    "mineType": "Opencast",
+    "incidentType": "Fall of Sides (Other than Overhangs)",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "Loose boulders embedded and hanging on the high-wall fell from a height of 22.5m on a contractual worker, inflicting serious bodily injuries, to which he succumbed.",
+    "rootCause": "inflicting serious bodily injur",
+    "recommendation": "Had the sides of opencast workings been benched and kept sloped and secured... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Hari Lal Baiga", "role": "Labour", "gender": "Male", "age": 30 }
+    ]
+  },
+  {
+    "id": "DS-4.12-9",
+    "date": "21/10/15",
+    "location": "ARASU I MAGNESITE MINE",
+    "state": "Tamilnadu",
+    "district": "Salem",
+    "mineType": "Opencast",
+    "incidentType": "Fall of Sides (Other than Overhangs)",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "Side of the bench slid, partially burying one worker and a boulder fell and hit him inflicting serious bodily injuries which turned fatal after nine days.",
+    "rootCause": "inflicting serious bodily injur",
+    "recommendation": "Had the sides of the bench been dressed properly and effective supervision provided... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "G.Venkatachalam", "role": "Face Worker", "gender": "Male", "age": 62 }
+    ]
+  },
+  {
+    "id": "DS-4.12-10",
+    "date": "08/11/15",
+    "location": "TANTRA-RAIKELA & BANDHAL IRON MINE",
+    "state": "Orissa",
+    "district": "Sundergarh",
+    "mineType": "Opencast",
+    "incidentType": "Fall of Sides (Other than Overhangs)",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "Sides of the bench slid and an excavator fell to a lower bench; operator was buried and died on way to hospital.",
+    "rootCause": null,
+    "recommendation": "Had the sides of the bench been secured... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Seru Mandal", "role": "HEMM operator", "gender": "Male", "age": 35 }
+    ]
+  },
+  {
+    "id": "DS-4.12-13",
+    "date": "12/09/15",
+    "location": "MOCHIA LEAD AND ZINK MINE",
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "mineType": "Metalliferous",
+    "incidentType": "Overwinding of Cages/Skip (downgoing)",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "While the man winding cage was signaled for lowering, the roof of the cage got stuck and then travelled at high speed; the bellman received serious injuries and succumbed.",
+    "rootCause": null,
+    "recommendation": "Had proper interlocks and procedures been ensured... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Prem Singh Mal", "role": "Bellman", "gender": "Male", "age": 49 }
+    ]
+  },
+  {
+    "id": "DS-4.12-15",
+    "date": "30/09/15",
+    "location": "HUTTI GOLD MINE",
+    "state": "Karnataka",
+    "district": "Raichur",
+    "mineType": "Metalliferous",
+    "incidentType": "Other Accident due to Winding Operation",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "While cleaning at headgear frame, a skip was unloaded into a waste rock storage bin carrying a mazdoor along with ore resulting in fatal injuries.",
+    "rootCause": null,
+    "recommendation": "Had power to winding engine been disconnected and safe procedures followed... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Sangappa", "role": "Mazdoor cum signalman", "gender": "Male", "age": 49 }
+    ]
+  },
+  {
+    "id": "DS-4.12-18",
+    "date": "14/07/15",
+    "location": "BARSUA IRON ORE MINE",
+    "state": "Orissa",
+    "district": "Sundergarh",
+    "mineType": "Opencast",
+    "incidentType": "Conveyors",
+    "severity": "Critical",
+    "fatalities": 1,
+    "injuries": 0,
+    "description": "While taking measurement of discharge end take up pulley of a conveyor belt by standing on it, the belt was operated trapping him between conveyor belt and take up pulley receiving serious injuries.",
+    "rootCause": "receiving serious bodily injur",
+    "recommendation": "Had Standard Maintenance Practice for shutdown been followed... this accident could have been averted.",
+    "persons_killed": [
+      { "name": "Kaushal Kandulna", "role": "Contract.Worker", "gender": "Male", "age": 41 }
+    ]
   }
 ]

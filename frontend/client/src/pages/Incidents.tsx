@@ -94,8 +94,7 @@ export default function Incidents() {
               <table className="w-full">
                 <thead className="bg-muted/50">
                   <tr className="text-sm">
-                    <th className="text-left p-3 font-medium">ID</th>
-                    <th className="text-left p-3 font-medium">Date</th>
+                    <th className="text-left p-3 font-medium">S.No</th>
                     <th className="text-left p-3 font-medium">Location</th>
                     <th className="text-left p-3 font-medium">Type</th>
                     <th className="text-left p-3 font-medium">Severity</th>
@@ -112,9 +111,8 @@ export default function Incidents() {
                         data-testid={`row-incident-${incident.id}`}
                       >
                         <td className="p-3">
-                          <span className="font-mono text-sm">{incident.id}</span>
+                          <span className="font-mono text-sm">{index + 1}</span>
                         </td>
-                        <td className="p-3 text-sm">{incident.date}</td>
                         <td className="p-3">
                           <div className="text-sm font-medium">{incident.location}</div>
                           <div className="text-xs text-muted-foreground">{incident.state}</div>
@@ -169,7 +167,7 @@ export default function Incidents() {
                       </tr>
                       {expandedRow === incident.id && (
                         <tr className="border-t bg-card">
-                          <td colSpan={7} className="p-6">
+                          <td colSpan={6} className="p-6">
                             <div className="grid md:grid-cols-2 gap-6">
                               <div>
                                 <h4 className="font-semibold mb-2">Description</h4>
