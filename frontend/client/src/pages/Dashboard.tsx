@@ -2,14 +2,11 @@ import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { AlertTriangle, TrendingUp, TrendingDown, MessageSquare, Newspaper, Download, FileText, Send, Calendar, MapPin, Activity } from "lucide-react";
+import { AlertTriangle, TrendingUp, TrendingDown, MessageSquare, Newspaper, Download, FileText, Calendar, MapPin, Activity } from "lucide-react";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from "recharts";
 import { Link } from "wouter";
 
 export default function Dashboard() {
-  const [chatInput, setChatInput] = useState("");
   const [incidentData, setIncidentData] = useState<any[]>([]);
   const [severityData, setSeverityData] = useState<any[]>([]);
   const [newsUpdates, setNewsUpdates] = useState<any[]>([]);
@@ -31,20 +28,10 @@ export default function Dashboard() {
     })();
   }, []);
 
-  const handleSendChat = () => {
-    if (!chatInput.trim()) return;
-    console.log("Chat query:", chatInput);
-    setChatInput("");
-  };
+  
 
   const handleGeneratePDF = () => {
     console.log("Generating PDF report...");
-  };
-
-  const handleDataInput = (monthIndex: number, value: number) => {
-    const newData = [...incidentData];
-    newData[monthIndex].incidents = value;
-    setIncidentData(newData);
   };
 
   return (
@@ -56,7 +43,7 @@ export default function Dashboard() {
         <p className="text-muted-foreground mt-2">Real-time monitoring and AI-powered insights</p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+  <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <Card className="border-primary/20 bg-gradient-to-br from-primary/10 to-primary/5">
           <CardHeader className="flex flex-row items-center justify-between gap-2 space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">Total Incidents</CardTitle>
@@ -87,19 +74,7 @@ export default function Dashboard() {
           </CardContent>
         </Card>
 
-        <Card className="border-accent/20 bg-gradient-to-br from-accent/10 to-accent/5">
-          <CardHeader className="flex flex-row items-center justify-between gap-2 space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium">Compliance Rate</CardTitle>
-            <TrendingUp className="h-4 w-4 text-accent" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-3xl font-bold font-mono text-accent" data-testid="text-compliance-rate">{overview.complianceRate ? `${overview.complianceRate}%` : "0%"}</div>
-            <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
-              <TrendingUp className="h-3 w-3 text-green-500" />
-              <span className="text-green-500">5% increase</span> from Q3
-            </p>
-          </CardContent>
-        </Card>
+        {/* Compliance Rate card removed as requested */}
 
         <Card className="border-chart-5/20 bg-gradient-to-br from-chart-5/10 to-chart-5/5">
           <CardHeader className="flex flex-row items-center justify-between gap-2 space-y-0 pb-2">
@@ -113,7 +88,7 @@ export default function Dashboard() {
         </Card>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-3">
+  <div className="grid gap-6 lg:grid-cols-1">
         <Card className="lg:col-span-2">
           <CardHeader className="flex flex-row items-center justify-between gap-2 space-y-0">
             <CardTitle>Interactive Analytics</CardTitle>
@@ -123,23 +98,7 @@ export default function Dashboard() {
             </Button>
           </CardHeader>
           <CardContent>
-            <div className="mb-4">
-              <p className="text-sm text-muted-foreground mb-2">Adjust incident data to see real-time chart updates:</p>
-              <div className="grid grid-cols-6 gap-2">
-                {incidentData.map((item, index) => (
-                  <div key={item.month} className="space-y-1">
-                    <label className="text-xs font-medium">{item.month}</label>
-                    <Input
-                      type="number"
-                      value={item.incidents}
-                      onChange={(e) => handleDataInput(index, parseInt(e.target.value) || 0)}
-                      className="h-8 text-xs"
-                      data-testid={`input-${item.month}`}
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
+            {/* Interactive controls removed: chart is now static and driven only by backend data */}
             
             <ResponsiveContainer width="100%" height={250}>
               <LineChart data={incidentData}>
@@ -157,97 +116,11 @@ export default function Dashboard() {
               </LineChart>
             </ResponsiveContainer>
 
-            <div className="mt-6">
-              <ResponsiveContainer width="100%" height={200}>
-                <PieChart>
-                  <Pie
-                    data={severityData}
-                    cx="50%"
-                    cy="50%"
-                    labelLine={false}
-                    label={(entry) => `${entry.name}: ${entry.value}`}
-                    outerRadius={80}
-                    dataKey="value"
-                  >
-                    {severityData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.color} />
-                    ))}
-                  </Pie>
-                  <Tooltip
-                    contentStyle={{
-                      backgroundColor: "hsl(var(--card))",
-                      border: "1px solid hsl(var(--border))",
-                      borderRadius: "6px",
-                    }}
-                  />
-                </PieChart>
-              </ResponsiveContainer>
-            </div>
+            {/* pie chart moved to a dedicated card on the right of News & Updates */}
           </CardContent>
         </Card>
 
-        <Card className="border-primary/20">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <MessageSquare className="h-5 w-5 text-primary" />
-              AI Safety Assistant
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <p className="text-sm text-muted-foreground">
-              Ask questions about incident patterns, compliance, or safety recommendations.
-            </p>
-            
-            <div className="space-y-2">
-              <Textarea
-                placeholder="Ask: 'Show methane incidents in Jharkhand' or 'What are the top safety risks?'"
-                value={chatInput}
-                onChange={(e) => setChatInput(e.target.value)}
-                className="min-h-[100px] resize-none"
-                data-testid="input-chat-query"
-              />
-              
-              <div className="flex gap-2">
-                <Button
-                  onClick={handleSendChat}
-                  disabled={!chatInput.trim()}
-                  className="flex-1"
-                  data-testid="button-send-chat"
-                >
-                  <Send className="h-4 w-4 mr-2" />
-                  Ask AI
-                </Button>
-                <Link href="/chat">
-                  <Button variant="outline" data-testid="button-full-chat">
-                    Full Chat
-                  </Button>
-                </Link>
-              </div>
-            </div>
-
-            <div className="pt-4 border-t space-y-2">
-              <p className="text-xs font-medium text-muted-foreground">QUICK QUERIES:</p>
-              <Button
-                variant="outline"
-                size="sm"
-                className="w-full justify-start text-xs h-auto py-2"
-                onClick={() => setChatInput("Show all methane incidents in 2024")}
-                data-testid="button-quick-query-1"
-              >
-                Show methane incidents in 2024
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                className="w-full justify-start text-xs h-auto py-2"
-                onClick={() => setChatInput("Which mines need urgent inspection?")}
-                data-testid="button-quick-query-2"
-              >
-                Which mines need urgent inspection?
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
+        {/* AI Safety Assistant removed per request - Dashboard now focuses on analytics and quick access */}
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
@@ -259,30 +132,34 @@ export default function Dashboard() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="space-y-3">
-              {newsUpdates.map((news) => (
-                <div
-                  key={news.id}
-                  className="p-3 border rounded-lg hover-elevate cursor-pointer"
-                  data-testid={`news-${news.id}`}
-                >
-                  <h4 className="font-semibold text-sm mb-2">{news.title}</h4>
-                  <div className="flex items-center justify-between text-xs text-muted-foreground">
-                    <span className="flex items-center gap-1">
-                      <Calendar className="h-3 w-3" />
-                      {news.date}
-                    </span>
-                    <Badge variant="outline" className="text-xs">{news.source}</Badge>
+            <div className="flex gap-4 items-start">
+              <div className="flex-1 space-y-3">
+                {newsUpdates.map((news) => (
+                  <div
+                    key={news.id}
+                    className="p-3 border rounded-lg hover-elevate cursor-pointer"
+                    data-testid={`news-${news.id}`}
+                  >
+                    <h4 className="font-semibold text-sm mb-2">{news.title}</h4>
+                    <div className="flex items-center justify-between text-xs text-muted-foreground">
+                      <span className="flex items-center gap-1">
+                        <Calendar className="h-3 w-3" />
+                        {news.date}
+                      </span>
+                      <Badge variant="outline" className="text-xs">{news.source}</Badge>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+
+                <Link href="/scraper">
+                  <Button variant="outline" className="w-full mt-4" data-testid="button-view-all-news">
+                    View All News Sources
+                  </Button>
+                </Link>
+              </div>
+
+              
             </div>
-            
-            <Link href="/scraper">
-              <Button variant="outline" className="w-full mt-4" data-testid="button-view-all-news">
-                View All News Sources
-              </Button>
-            </Link>
           </CardContent>
         </Card>
 
@@ -290,47 +167,37 @@ export default function Dashboard() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <FileText className="h-5 w-5 text-accent" />
-              Generate Incident Report
+              Severity Breakdown
             </CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <p className="text-sm text-muted-foreground">
-              Export detailed PDF reports for specific incidents, date ranges, or locations.
-            </p>
-
-            <div className="space-y-3">
-              <div>
-                <label className="text-sm font-medium mb-2 block">Report Type</label>
-                <div className="grid grid-cols-2 gap-2">
-                  <Button variant="outline" size="sm" className="justify-start" data-testid="button-report-monthly">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    Monthly Summary
-                  </Button>
-                  <Button variant="outline" size="sm" className="justify-start" data-testid="button-report-location">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    By Location
-                  </Button>
-                  <Button variant="outline" size="sm" className="justify-start" data-testid="button-report-severity">
-                    <AlertTriangle className="h-4 w-4 mr-2" />
-                    By Severity
-                  </Button>
-                  <Button variant="outline" size="sm" className="justify-start" data-testid="button-report-custom">
-                    <FileText className="h-4 w-4 mr-2" />
-                    Custom Range
-                  </Button>
-                </div>
+          <CardContent>
+            <div className="w-full h-56 flex items-center justify-center">
+              <div className="w-44 h-44 transform translate-y-6">
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                  <Pie
+                    data={severityData}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={(entry) => `${entry.name}: ${entry.value}`}
+                    outerRadius={80}
+                    dataKey="value"
+                  >
+                    {severityData.map((entry, index) => (
+                      <Cell key={`cell-main-${index}`} fill={entry.color} />
+                    ))}
+                  </Pie>
+                  <Tooltip
+                    contentStyle={{
+                      backgroundColor: "hsl(var(--card))",
+                      border: "1px solid hsl(var(--border))",
+                      borderRadius: "6px",
+                    }}
+                  />
+                </PieChart>
+                </ResponsiveContainer>
               </div>
-
-              <Button onClick={handleGeneratePDF} className="w-full" data-testid="button-generate-full-pdf">
-                <Download className="h-4 w-4 mr-2" />
-                Generate PDF Report
-              </Button>
-
-              <Link href="/reports">
-                <Button variant="outline" className="w-full" data-testid="button-view-reports">
-                  View All Reports
-                </Button>
-              </Link>
             </div>
           </CardContent>
         </Card>
