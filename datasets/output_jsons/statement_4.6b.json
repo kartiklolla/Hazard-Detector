@@ -1,0 +1,258 @@
+[
+  {
+    "region": "EAST GODAVARI                ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "...",
+    "death_rate_ag": "0.55",
+    "death_rate_overall": "0.55",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "DIBRUGARH                    ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "...",
+    "death_rate_ag": "1.43",
+    "death_rate_overall": "1.43",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "SIBSAGAR                     ...     ...",
+    "death_rate_bg": "0.21",
+    "death_rate_oc": "0.21",
+    "death_rate_ag": "...",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BHARUCH                      ...     ...",
+    "death_rate_bg": "0.94",
+    "death_rate_oc": "0.94",
+    "death_rate_ag": "...",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "GANDHINAGAR                  ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "...",
+    "death_rate_ag": "15.63",
+    "death_rate_overall": "15.63",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "MEHASANA                     ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "...",
+    "death_rate_ag": "1.60",
+    "death_rate_overall": "1.60",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "SHAHDOL                      ...     ...",
+    "death_rate_bg": "4.37",
+    "death_rate_oc": "4.37",
+    "death_rate_ag": "...",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "WEST  TRIPURA                ...     ...",
+    "death_rate_bg": "3.28",
+    "death_rate_oc": "3.28",
+    "death_rate_ag": "...",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "SAHEBGANJ                    ...     ...     ...     ...",
+    "death_rate_bg": "31.25",
+    "death_rate_oc": "...",
+    "death_rate_ag": "...",
+    "death_rate_overall": "2.34",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "JHUNJHUNU",
+    "death_rate_bg": "1.12",
+    "death_rate_oc": "...",
+    "death_rate_ag": "...",
+    "death_rate_overall": "0.85",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "AJMER",
+    "death_rate_bg": "2.40",
+    "death_rate_oc": "...",
+    "death_rate_ag": "...",
+    "death_rate_overall": "1.80",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BHILWARA                     ...",
+    "death_rate_bg": "12.99",
+    "death_rate_oc": "...",
+    "death_rate_ag": "0.89",
+    "death_rate_overall": "2.46",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "UDAIPUR",
+    "death_rate_bg": "0.94",
+    "death_rate_oc": "...",
+    "death_rate_ag": "...",
+    "death_rate_overall": "0.57",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "RAJSAMAND                    ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "...",
+    "death_rate_ag": "2.22",
+    "death_rate_overall": "0.62",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "RAICHUR                      ...     ...",
+    "death_rate_bg": "0.62",
+    "death_rate_oc": "0.28",
+    "death_rate_ag": "1.78",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "PRAKASHAM                    ...",
+    "death_rate_bg": "0.65",
+    "death_rate_oc": "...",
+    "death_rate_ag": "0.48",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BAGALKOT                     ...",
+    "death_rate_bg": "2.10",
+    "death_rate_oc": "...",
+    "death_rate_ag": "1.73",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "DANTEWARA                    ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "2.95",
+    "death_rate_ag": "2.90",
+    "death_rate_overall": "2.92",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "WEST SINGBHUM                ...     ...",
+    "death_rate_bg": "0.19",
+    "death_rate_oc": "0.13",
+    "death_rate_ag": "...",
+    "death_rate_overall": "0.41",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BELLARY                      ...",
+    "death_rate_bg": "0.24",
+    "death_rate_oc": "...",
+    "death_rate_ag": "0.19",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "KEONJHAR                     ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "0.17",
+    "death_rate_ag": "...",
+    "death_rate_overall": "0.07",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "SUNDERGARH                   ...",
+    "death_rate_bg": "0.28",
+    "death_rate_oc": "0.43",
+    "death_rate_ag": "0.34",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BHILWARA                     ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "1.89",
+    "death_rate_ag": "...",
+    "death_rate_overall": "1.15",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BILASPUR                     ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "28.57",
+    "death_rate_ag": "...",
+    "death_rate_overall": "15.15",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "KOTA                         ...",
+    "death_rate_bg": "0.41",
+    "death_rate_oc": "...",
+    "death_rate_ag": "0.37",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "TIRUNELVELI                  ...",
+    "death_rate_bg": "6.43",
+    "death_rate_oc": "...",
+    "death_rate_ag": "5.78",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "SALEM                        ...",
+    "death_rate_bg": "1.03",
+    "death_rate_oc": "...",
+    "death_rate_ag": "1.01",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BALAGHAT                     ...     ...     ...     ...",
+    "death_rate_bg": "0.33",
+    "death_rate_oc": "...",
+    "death_rate_ag": "...",
+    "death_rate_overall": "0.17",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "BHANDARA",
+    "death_rate_bg": "1.00",
+    "death_rate_oc": "...",
+    "death_rate_ag": "...",
+    "death_rate_overall": "0.22",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "RAJSAMAND                    ...",
+    "death_rate_bg": "10.88",
+    "death_rate_oc": "...",
+    "death_rate_ag": "8.89",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "KOLLAM                       ...     ...     ...     ...",
+    "death_rate_bg": "...",
+    "death_rate_oc": "...",
+    "death_rate_ag": "2.73",
+    "death_rate_overall": "2.64",
+    "statement_no": "4.6b"
+  },
+  {
+    "region": "GUNTUR                       ...",
+    "death_rate_bg": "76.92",
+    "death_rate_oc": "...",
+    "death_rate_ag": "68.97",
+    "death_rate_overall": "...",
+    "statement_no": "4.6b"
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "region": "EAST GODAVARI                  0       1          0       0       0       0       0       0          0       0       0",
+    "fatal_accidents": 1,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "DIBRUGARH                      0       6          0       0       0       0       0       0          0       0       0",
+    "fatal_accidents": 6,
+    "serious_accidents": 0,
+    "tokens": [
+      "6"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "SIBSAGAR                       1       0          0       0       0       1       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BHARUCH                        1       0          0       0       0       2       0       2          0       0       0",
+    "fatal_accidents": 10,
+    "serious_accidents": 0,
+    "tokens": [
+      "10"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "GANDHINAGAR                    0       1          0       0       0       0       0       0          0       0       0",
+    "fatal_accidents": 1,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "MEHASANA                       0       5          0       0       0       0       0       0          0       0       0",
+    "fatal_accidents": 7,
+    "serious_accidents": 0,
+    "tokens": [
+      "7"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "SHAHDOL                        1       0          0       0       0       1       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "WEST  TRIPURA                  1       0          0       0       0       1       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "UDAIPUR                        3       0          0       4       0       0       0       4          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "SAHEBGANJ                      0       1          0       0       0       0       0       0          1       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "JHUNJHUNU                      1       2          1       0       0       0       0       1          2       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "2"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "AJMER                          1       0          1       0       0       0       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BHILWARA                       1       2          0       1       0       0       0       1          2       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "2"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "UDAIPUR                        1       1          1       0       0       0       0       1          1       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "RAJSAMAND                      0       1          0       0       0       0       0       0          0       0       0",
+    "fatal_accidents": 1,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "RAICHUR                        1       4          0       0       0       1       0       1          3       0       0",
+    "fatal_accidents": 1,
+    "serious_accidents": 0,
+    "tokens": [
+      "4"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "PRAKASHAM                      3       0          0       3       0       0       0       3          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BAGALKOT                       1       0          0       1       0       0       0       1          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "DANTEWARA                      0       4          0       0       0       0       0       0          0       2       0",
+    "fatal_accidents": 3,
+    "serious_accidents": 0,
+    "tokens": [
+      "5"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BALOD                          1       0          0       0       0       1       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "WEST SINGBHUM                  1       1          0       0       0       1       0       1          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BELLARY                        1       1          0       1       0       0       0       1          0       0       0",
+    "fatal_accidents": 1,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "KEONJHAR                       0       1          0       0       0       0       0       0          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "SUNDERGARH                     2       0          0       1       0       1       0       2          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BHILWARA                       0       1          0       0       0       0       0       0          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "RANGA REDDY                    1       0          0       1       0       0       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BILASPUR                       0       1          0       0       0       0       0       0          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "KOTA                           2       0          0       2       0       0       0       2          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "TIRUNELVELI                    2       0          0       2       0       0       0       2          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "SALEM                          2       0          0       2       0       0       0       2          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BALAGHAT                       0       1          0       0       0       0       0       0          1       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "BHANDARA                       1       0          1       0       0       0       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "RAJSAMAND                      8       0          0       8       0       0       0       8          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "NAGAUR                         1       0          0       1       0       0       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "KARAULI                        1       0          0       0       0       1       0       1          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "KOLLAM                         0       1          0       0       0       0       0       0          0       0       0",
+    "fatal_accidents": 1,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "GUNTUR                         1       0          0       2       0       0       0       2          0       0       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "0"
+    ],
+    "statement_no": "4.6a"
+  },
+  {
+    "region": "SONEBHADRA                     5       0          0       5       0       0       0       5          0       1       0",
+    "fatal_accidents": 0,
+    "serious_accidents": 0,
+    "tokens": [
+      "1"
+    ],
+    "statement_no": "4.6a"
+  }
+]

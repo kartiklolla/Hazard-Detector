@@ -1,0 +1,245 @@
+[
+  {
+    "region": "Guwahati",
+    "fatal_accidents": 2,
+    "killed": 2,
+    "injured": 0,
+    "serious_accidents": 6,
+    "serious_injured": 6,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Sitarampur III",
+    "fatal_accidents": 0,
+    "killed": 0,
+    "injured": 0,
+    "serious_accidents": 1,
+    "serious_injured": 1,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Eastern Zone",
+    "fatal_accidents": 2,
+    "killed": 2,
+    "injured": 0,
+    "serious_accidents": 7,
+    "serious_injured": 7,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Ahmedabad",
+    "fatal_accidents": 0,
+    "killed": 0,
+    "injured": 0,
+    "serious_accidents": 6,
+    "serious_injured": 8,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Surat",
+    "fatal_accidents": 1,
+    "killed": 2,
+    "injured": 10,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Udaipur",
+    "fatal_accidents": 12,
+    "killed": 13,
+    "injured": 0,
+    "serious_accidents": 2,
+    "serious_injured": 2,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Western Zone",
+    "fatal_accidents": 13,
+    "killed": 15,
+    "injured": 10,
+    "serious_accidents": 8,
+    "serious_injured": 10,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Ajmer",
+    "fatal_accidents": 4,
+    "killed": 4,
+    "injured": 0,
+    "serious_accidents": 5,
+    "serious_injured": 5,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Gwalior",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Ghaziabad",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 1,
+    "serious_injured": 1,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Udaipur",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Varanasi",
+    "fatal_accidents": 5,
+    "killed": 5,
+    "injured": 1,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Northern Zone",
+    "fatal_accidents": 12,
+    "killed": 12,
+    "injured": 1,
+    "serious_accidents": 6,
+    "serious_injured": 6,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Hyderabad I",
+    "fatal_accidents": 0,
+    "killed": 0,
+    "injured": 0,
+    "serious_accidents": 1,
+    "serious_injured": 1,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Hyderabad II",
+    "fatal_accidents": 5,
+    "killed": 6,
+    "injured": 0,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Central Zone",
+    "fatal_accidents": 5,
+    "killed": 6,
+    "injured": 0,
+    "serious_accidents": 1,
+    "serious_injured": 1,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Chaibasa",
+    "fatal_accidents": 3,
+    "killed": 3,
+    "injured": 0,
+    "serious_accidents": 2,
+    "serious_injured": 2,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Eastern Zone",
+    "fatal_accidents": 3,
+    "killed": 3,
+    "injured": 0,
+    "serious_accidents": 2,
+    "serious_injured": 2,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Bangluru",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 1,
+    "serious_injured": 1,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Bellary",
+    "fatal_accidents": 3,
+    "killed": 3,
+    "injured": 1,
+    "serious_accidents": 5,
+    "serious_injured": 5,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Chennai",
+    "fatal_accidents": 3,
+    "killed": 3,
+    "injured": 1,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Southern Zone",
+    "fatal_accidents": 7,
+    "killed": 7,
+    "injured": 2,
+    "serious_accidents": 6,
+    "serious_injured": 6,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Bilaspur",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 4,
+    "serious_injured": 5,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Jabalpur",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 0,
+    "serious_injured": 0,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Nagpur I",
+    "fatal_accidents": 1,
+    "killed": 1,
+    "injured": 0,
+    "serious_accidents": 1,
+    "serious_injured": 1,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "Western Zone",
+    "fatal_accidents": 3,
+    "killed": 3,
+    "injured": 0,
+    "serious_accidents": 5,
+    "serious_injured": 6,
+    "statement_no": "4.10"
+  },
+  {
+    "region": "ALL INDIA",
+    "fatal_accidents": 45,
+    "killed": 48,
+    "injured": 13,
+    "serious_accidents": 35,
+    "serious_injured": 38,
+    "statement_no": "4.10"
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "date": "02/02/01",
+    "mine": "A.Subha Naidy & Co. Mica",
+    "killed": 9,
+    "injured": 0,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "11/04/02",
+    "mine": "Redhill Ruby",
+    "killed": 5,
+    "injured": 4,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/09/04",
+    "mine": "Hannumanoya/41B Mica",
+    "killed": 7,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "29/12/06",
+    "mine": "Salayakhad Mica",
+    "killed": 4,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "24/01/07",
+    "mine": "Chirki Mica",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "10/02/08",
+    "mine": "Murwara Limestone",
+    "killed": 7,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "06/12/10",
+    "mine": "Shivrajpur Manganese",
+    "killed": 12,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/04/11",
+    "mine": "Charki Mica",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "04/06/12",
+    "mine": "Make Myebya Wolfrom",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "21/10/13",
+    "mine": "North Anantapur Gold",
+    "killed": 7,
+    "injured": 0,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "24/07/14",
+    "mine": "Maya Salt",
+    "killed": 5,
+    "injured": 2,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "05/11/14",
+    "mine": "Tadaiya Mica",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Irruption of Water",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "12/08/16",
+    "mine": "Wazunchaung Wolfram",
+    "killed": 9,
+    "injured": 0,
+    "cause": "Miscellaneous on Surface",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "13/05/19",
+    "mine": "Aulajhari Manganese",
+    "killed": 4,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "28/01/20",
+    "mine": "Hsaikho(Mile 28.6) Limestone",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "13/09/20",
+    "mine": "Bhalua Mica",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Suffocation by Gases",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "18/09/20",
+    "mine": "Badwin Lead-Silver",
+    "killed": 11,
+    "injured": 0,
+    "cause": "In Shaft Ascending",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "19/02/23",
+    "mine": "Bawdwin Silver-Lead-Zinc",
+    "killed": 6,
+    "injured": 1,
+    "cause": "In Shaft Ascending",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "20/02/23",
+    "mine": "Cherangcode Mica",
+    "killed": 7,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "01/03/27",
+    "mine": "Telewadi Manganese",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/05/27",
+    "mine": "Bawdwin Silver-Lead",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Suffocation by Gases",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "10/09/27",
+    "mine": "Tarki Limestone",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "12/10/27",
+    "mine": "Kyauktalone Limestone",
+    "killed": 9,
+    "injured": 18,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "16/05/29",
+    "mine": "Bawdwin Silver-Lead-Zinc",
+    "killed": 10,
+    "injured": 0,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "06/01/31",
+    "mine": "Kanbank Tin and Wolfram",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "14/09/31",
+    "mine": "Taungpila Tin",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "12/04/32",
+    "mine": "Lady Rangi Mica",
+    "killed": 19,
+    "injured": 0,
+    "cause": "Suffocation by Gases",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "24/08/36",
+    "mine": "Wagon North Tin & Wolfram",
+    "killed": 7,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/02/37",
+    "mine": "Salaiya Pahari Limestone",
+    "killed": 9,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "22/12/38",
+    "mine": "Matauni Mica",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "05/10/40",
+    "mine": "Porcupine Steatite",
+    "killed": 4,
+    "injured": 2,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "15/07/43",
+    "mine": "Tatahwa Mica",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Falling Down Shaft",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "07/11/45",
+    "mine": "Noamundi Iron",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "13/05/46",
+    "mine": "Kaza Limestone",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "06/12/46",
+    "mine": "Pattabhirama & Margin Mica",
+    "killed": 8,
+    "injured": 0,
+    "cause": "Irruption of Water",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "21/01/49",
+    "mine": "Kharonia Mica",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "08/07/50",
+    "mine": "Basorhai Diamonds",
+    "killed": 6,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "14/06/51",
+    "mine": "Mysore Gold",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "11/10/51",
+    "mine": "Oorgaum Gold",
+    "killed": 9,
+    "injured": 9,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "02/11/51",
+    "mine": "Champion Reef Gold",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "19/04/52",
+    "mine": "Champion Reef Gold",
+    "killed": 20,
+    "injured": 4,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "30/06/52",
+    "mine": "Champion Reef Gold",
+    "killed": 10,
+    "injured": 5,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "01/05/53",
+    "mine": "Lanjhera Manganese",
+    "killed": 5,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "21/06/54",
+    "mine": "Kachhidhana Manganese",
+    "killed": 5,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "30/11/54",
+    "mine": "Mysore Gold",
+    "killed": 4,
+    "injured": 1,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "23/12/54",
+    "mine": "Venkajigudda(Vajra)Manganese",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "27/05/55",
+    "mine": "Champion Reef Gold",
+    "killed": 10,
+    "injured": 8,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "21/04/56",
+    "mine": "Yeshwantanagar Manganese",
+    "killed": 5,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "18/08/56",
+    "mine": "Tikuri Bauxite",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "22/01/57",
+    "mine": "Madadakere Manganese",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "29/09/57",
+    "mine": "Rajupalem Barytes",
+    "killed": 11,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "19/02/58",
+    "mine": "Aytemvalasa Manganese",
+    "killed": 7,
+    "injured": 3,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "12/05/59",
+    "mine": "Siddimella Steatite",
+    "killed": 8,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "14/05/59",
+    "mine": "Serima White Earth",
+    "killed": 4,
+    "injured": 2,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/06/61",
+    "mine": "Gua Iron",
+    "killed": 4,
+    "injured": 1,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "24/03/62",
+    "mine": "Champion Reef Gold",
+    "killed": 4,
+    "injured": 4,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "01/06/63",
+    "mine": "Junawani Manganese",
+    "killed": 5,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "13/08/63",
+    "mine": "Nundydroog Gold",
+    "killed": 5,
+    "injured": 2,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "16/02/64",
+    "mine": "Sonnedenhalli Iron",
+    "killed": 4,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "13/10/64",
+    "mine": "Patnibona (Bakudih) Stone",
+    "killed": 6,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "06/02/66",
+    "mine": "Mysore Gold",
+    "killed": 7,
+    "injured": 0,
+    "cause": "Overwinding",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "02/08/66",
+    "mine": "Borgafall Iron",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "25/12/66",
+    "mine": "Venkateshwara Beryl & Mica",
+    "killed": 6,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "06/06/68",
+    "mine": "Sarvodaya Stone",
+    "killed": 7,
+    "injured": 0,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "19/11/69",
+    "mine": "Morija Iron",
+    "killed": 4,
+    "injured": 3,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "14/10/70",
+    "mine": "Bhadrasai Manganese",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "29/01/71",
+    "mine": "Bhatti Badarpur Stone",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "20/06/72",
+    "mine": "Balawali Mica",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Roof",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "22/08/78",
+    "mine": "Kukda Limestone",
+    "killed": 7,
+    "injured": 6,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "10/05/80",
+    "mine": "Kalidungri Dolomite",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "17/08/80",
+    "mine": "Bhatti Badarpur Stone",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "08/09/83",
+    "mine": "Manoharpur Iron",
+    "killed": 4,
+    "injured": 1,
+    "cause": "Truck",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "04/04/84",
+    "mine": "Surda Copper",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Nitrous Fumes",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "30/05/84",
+    "mine": "Ahmedabad Oil Project",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fire",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "22/02/86",
+    "mine": "Rekha Fluorspar",
+    "killed": 8,
+    "injured": 2,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "15/11/88",
+    "mine": "Ankleshwar Oil Project",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Outbreak of Fire",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "14/07/89",
+    "mine": "Nundydroog Gold",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Rock Burst",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "30/05/90",
+    "mine": "Bhatti Badarpur Stone",
+    "killed": 7,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "22/06/91",
+    "mine": "Bandu Basaria Limestone",
+    "killed": 6,
+    "injured": 1,
+    "cause": "Fall of Overhangs",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "11/07/93",
+    "mine": "Pali Silica Sand",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "25/10/93",
+    "mine": "Pokarna Granite",
+    "killed": 5,
+    "injured": 1,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "09/07/94",
+    "mine": "Maruthi Manganese",
+    "killed": 4,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "28/08/94",
+    "mine": "Rajpura Dariba Galena & Sphal.",
+    "killed": 13,
+    "injured": 0,
+    "cause": "Irruption of Water",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "16/02/95",
+    "mine": "Pali Silica Sand",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "08/11/96",
+    "mine": "God Granite",
+    "killed": 4,
+    "injured": 6,
+    "cause": "Explosives",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "17/04/99",
+    "mine": "Barkundi Soapstone No.",
+    "killed": 1,
+    "injured": 6,
+    "cause": "",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "21/04/01",
+    "mine": "Jogogoria Stone Mine",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Explosion",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "02/06/02",
+    "mine": "Borli Limestone Mine",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "18/11/02",
+    "mine": "Devka Harmada Cheja Pathar Mine",
+    "killed": 5,
+    "injured": 2,
+    "cause": "Fall of Overhang",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "11/03/06",
+    "mine": "Surya Granite Opencast Mine",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Object",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "12/09/06",
+    "mine": "Tollem Group Iron Ore Mine",
+    "killed": 6,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "10/07/07",
+    "mine": "Mandodi Limestone Mine",
+    "killed": 5,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "12/05/08",
+    "mine": "SMS Infrastructure Ltd. Stone",
+    "killed": 9,
+    "injured": 20,
+    "cause": "Other explosive accident",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "25/02/10",
+    "mine": "Hamsa Mineral Granite Mine",
+    "killed": 14,
+    "injured": 1,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/03/10",
+    "mine": "Bharkundi No. 1 Soapstone Mine",
+    "killed": 8,
+    "injured": 0,
+    "cause": "Fall of Sides",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "24/04/10",
+    "mine": "Prashant Mining Quartz & Felspar Mine",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Overhang",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "27/08/10",
+    "mine": "Deokhera Garnet Mine",
+    "killed": 5,
+    "injured": 0,
+    "cause": "Fall of Overhang",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "23/07/13",
+    "mine": "Granite Buid Stone Quarry SY 376/3-2",
+    "killed": 4,
+    "injured": 1,
+    "cause": "Fall of Overhang",
+    "statement_no": "4.13"
+  },
+  {
+    "date": "26/11/14",
+    "mine": "PIPALJORI STONE MINE",
+    "killed": 4,
+    "injured": 0,
+    "cause": "Fall of Slides",
+    "statement_no": "4.13"
+  }
+]
