@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -6,47 +6,99 @@ import { Badge } from "@/components/ui/badge";
 import { Send, Sparkles, TrendingUp, MapPin, AlertCircle } from "lucide-react";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
-const suggestedQueries = [
+// initial values will be loaded from the server
+const defaultSuggested = [
   "Show all methane-related accidents in 2021",
   "Which mines exceeded safety thresholds in Q3 2024?",
   "Generate inspection schedule for high-risk sites",
   "Compare incident rates between Jharkhand and Odisha",
 ];
 
-const mockMessages = [
-  {
-    role: "assistant",
-    content: "Hello! I'm your Digital Mine Safety Officer. I can help you analyze DGMS incident data, identify patterns, and provide compliance recommendations. What would you like to know?",
-    timestamp: new Date(Date.now() - 3600000),
-  },
-];
-
 export default function Chat() {
-  const [messages, setMessages] = useState(mockMessages);
+  const [messages, setMessages] = useState<Array<any>>([]);
   const [input, setInput] = useState("");
+  const [suggested, setSuggested] = useState<string[]>(defaultSuggested);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    // fetch suggested queries and chat history
+    (async () => {
+      try {
+        const [sRes, mRes] = await Promise.all([
+          fetch("/api/suggested-queries"),
+          fetch("/api/chat"),
+        ]);
+
+        if (sRes.ok) {
+          const sJson = await sRes.json();
+          if (Array.isArray(sJson) && sJson.length) setSuggested(sJson);
+        }
+
+        if (mRes.ok) {
+          const mJson = await mRes.json();
+          // convert timestamps to Date objects for display
+          const parsed = Array.isArray(mJson)
+            ? mJson.map((m: any) => ({ ...m, timestamp: m.timestamp ? new Date(m.timestamp) : new Date() }))
+            : [];
+          setMessages(parsed.length ? parsed : [
+            {
+              role: "assistant",
+              content: "Hello! I'm your Digital Mine Safety Officer. I can help you analyze DGMS incident data, identify patterns, and provide compliance recommendations. What would you like to know?",
+              timestamp: new Date(Date.now() - 3600000),
+            },
+          ]);
+        }
+      } catch (e) {
+        // if fetch fails, fall back to a friendly assistant message
+        setMessages([
+          {
+            role: "assistant",
+            content: "Hello! I'm your Digital Mine Safety Officer. I can help you analyze DGMS incident data, identify patterns, and provide compliance recommendations. What would you like to know?",
+            timestamp: new Date(Date.now() - 3600000),
+          },
+        ]);
+      }
+    })();
+  }, []);
 
   const handleSend = () => {
     if (!input.trim()) return;
-    
-    console.log("Sending message:", input);
-    
-    const userMessage = {
-      role: "user",
-      content: input,
-      timestamp: new Date(),
-    };
-    
-    setMessages([...messages, userMessage]);
-    setInput("");
-    
-    setTimeout(() => {
-      const assistantResponse = {
-        role: "assistant",
-        content: "I've analyzed the DGMS data for your query. Based on the records from 2021, there were 23 methane-related incidents across underground coal mines, with the highest concentration in Jharkhand (12 incidents) and Chhattisgarh (7 incidents). Would you like me to provide more detailed breakdown or recommendations?",
-        timestamp: new Date(),
-      };
-      setMessages((prev) => [...prev, assistantResponse]);
-    }, 1000);
+
+    setLoading(true);
+    const payload = { role: "user", content: input };
+
+    (async () => {
+      try {
+        const res = await fetch("/api/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        if (!res.ok) {
+          console.error("Failed to send message", await res.text());
+          setLoading(false);
+          return;
+        }
+
+        const json = await res.json();
+
+        const userMsg = json.user
+          ? { ...json.user, timestamp: json.user.timestamp ? new Date(json.user.timestamp) : new Date() }
+          : { role: "user", content: input, timestamp: new Date() };
+
+        const assistantMsg = json.assistant
+          ? { ...json.assistant, timestamp: json.assistant.timestamp ? new Date(json.assistant.timestamp) : new Date() }
+          : undefined;
+
+        setMessages((prev) => [...prev, userMsg, ...(assistantMsg ? [assistantMsg] : [])]);
+        setInput("");
+      } catch (e) {
+        console.error(e);
+      } finally {
+        setLoading(false);
+      }
+    })();
   };
 
   const handleSuggestedQuery = (query: string) => {
@@ -69,7 +121,7 @@ export default function Chat() {
         <div>
           <h3 className="text-sm font-medium mb-3">Suggested Queries</h3>
           <div className="space-y-2">
-            {suggestedQueries.map((query, index) => (
+            {suggested.map((query, index) => (
               <Button
                 key={index}
                 variant="outline"
@@ -172,7 +224,7 @@ export default function Chat() {
                 size="icon"
                 className="h-[80px] w-[80px] flex-shrink-0"
                 onClick={handleSend}
-                disabled={!input.trim()}
+                disabled={!input.trim() || loading}
                 data-testid="button-send-message"
               >
                 <Send className="h-5 w-5" />

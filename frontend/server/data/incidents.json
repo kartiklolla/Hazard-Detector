@@ -1,0 +1,67 @@
+[
+  {
+    "id": "INC-2024-001",
+    "date": "2024-11-02",
+    "location": "Jharkhand Coal Mine #4",
+    "state": "Jharkhand",
+    "mineType": "Underground Coal",
+    "incidentType": "Methane Leak",
+    "severity": "Critical",
+    "fatalities": 0,
+    "injuries": 3,
+    "description": "Methane accumulation detected in shaft 4B during routine ventilation check",
+    "rootCause": "Ventilation system malfunction"
+  },
+  {
+    "id": "INC-2024-002",
+    "date": "2024-11-01",
+    "location": "Odisha Iron Ore Mine",
+    "state": "Odisha",
+    "mineType": "Open Pit",
+    "incidentType": "Equipment Failure",
+    "severity": "High",
+    "fatalities": 0,
+    "injuries": 1,
+    "description": "Excavator hydraulic system failure during loading operations",
+    "rootCause": "Insufficient maintenance schedule"
+  },
+  {
+    "id": "INC-2024-003",
+    "date": "2024-10-31",
+    "location": "Chhattisgarh Underground",
+    "state": "Chhattisgarh",
+    "mineType": "Underground Coal",
+    "incidentType": "Ground Movement",
+    "severity": "Medium",
+    "fatalities": 0,
+    "injuries": 0,
+    "description": "Minor roof subsidence in abandoned section",
+    "rootCause": "Natural geological stress"
+  },
+  {
+    "id": "INC-2024-004",
+    "date": "2024-10-30",
+    "location": "West Bengal Surface Mine",
+    "state": "West Bengal",
+    "mineType": "Surface",
+    "incidentType": "Transportation",
+    "severity": "Low",
+    "fatalities": 0,
+    "injuries": 0,
+    "description": "Haul truck minor collision with stationary equipment",
+    "rootCause": "Driver visibility issue"
+  },
+  {
+    "id": "INC-2024-005",
+    "date": "2024-10-29",
+    "location": "Madhya Pradesh Quarry",
+    "state": "Madhya Pradesh",
+    "mineType": "Quarry",
+    "incidentType": "Fire Hazard",
+    "severity": "High",
+    "fatalities": 0,
+    "injuries": 2,
+    "description": "Electrical fire in processing plant control room",
+    "rootCause": "Aging electrical infrastructure"
+  }
+]

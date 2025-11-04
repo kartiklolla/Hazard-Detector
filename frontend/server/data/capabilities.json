@@ -1,0 +1,5 @@
+[
+  { "key": "pattern_detection", "label": "Pattern detection across incidents" },
+  { "key": "location_analysis", "label": "Location-based analysis" },
+  { "key": "compliance", "label": "Compliance recommendations" }
+]

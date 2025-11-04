@@ -1,45 +1,36 @@
+import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from "recharts";
 
-const stateData = [
-  { state: "Jharkhand", incidents: 78 },
-  { state: "Odisha", incidents: 45 },
-  { state: "Chhattisgarh", incidents: 62 },
-  { state: "West Bengal", incidents: 34 },
-  { state: "Madhya Pradesh", incidents: 28 },
-  { state: "Others", incidents: 53 },
-];
-
-const typeData = [
-  { type: "Methane", count: 45 },
-  { type: "Equipment", count: 67 },
-  { type: "Ground Movement", count: 52 },
-  { type: "Fire", count: 38 },
-  { type: "Transportation", count: 44 },
-  { type: "Electrical", count: 54 },
-];
-
-const yearlyTrend = [
-  { year: "2016", incidents: 58 },
-  { year: "2017", incidents: 52 },
-  { year: "2018", incidents: 49 },
-  { year: "2019", incidents: 45 },
-  { year: "2020", incidents: 38 },
-  { year: "2021", incidents: 32 },
-  { year: "2022", incidents: 26 },
-];
-
-const riskProfile = [
-  { category: "Equipment", score: 78 },
-  { category: "Personnel", score: 65 },
-  { category: "Environment", score: 82 },
-  { category: "Process", score: 58 },
-  { category: "Compliance", score: 71 },
-];
+const emptyStateData: any[] = [];
+const emptyTypeData: any[] = [];
+const emptyYearlyTrend: any[] = [];
+const emptyRiskProfile: any[] = [];
 
 export default function Analytics() {
+  const [stateData, setStateData] = useState(emptyStateData);
+  const [typeData, setTypeData] = useState(emptyTypeData);
+  const [yearlyTrend, setYearlyTrend] = useState(emptyYearlyTrend);
+  const [riskProfile, setRiskProfile] = useState(emptyRiskProfile);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/api/analytics");
+        if (!res.ok) return;
+        const json = await res.json();
+        setStateData(json.stateData ?? []);
+        setTypeData(json.typeData ?? []);
+        setYearlyTrend(json.yearlyTrend ?? []);
+        setRiskProfile(json.riskProfile ?? []);
+      } catch (e) {
+        console.error("Failed to load analytics", e);
+      }
+    })();
+  }, []);
+
   return (
     <div className="p-6 space-y-6">
       <div>

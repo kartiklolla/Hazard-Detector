@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { FileText, Download, Calendar, TrendingUp, CheckCircle, AlertTriangle, Plus } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -21,56 +21,24 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-const reports = [
-  {
-    id: 1,
-    title: "Q3 2024 Safety Audit Report",
-    type: "Safety Audit",
-    date: "2024-10-15",
-    status: "completed",
-    incidents: 45,
-    compliance: 89,
-  },
-  {
-    id: 2,
-    title: "Jharkhand Regional Analysis",
-    type: "Regional Analysis",
-    date: "2024-10-10",
-    status: "completed",
-    incidents: 78,
-    compliance: 85,
-  },
-  {
-    id: 3,
-    title: "Methane Incident Deep Dive 2021-2024",
-    type: "Incident Analysis",
-    date: "2024-09-28",
-    status: "completed",
-    incidents: 127,
-    compliance: 92,
-  },
-  {
-    id: 4,
-    title: "Equipment Failure Trends Report",
-    type: "Equipment Analysis",
-    date: "2024-09-15",
-    status: "completed",
-    incidents: 67,
-    compliance: 88,
-  },
-  {
-    id: 5,
-    title: "Annual Compliance Review 2023",
-    type: "Compliance Review",
-    date: "2024-01-30",
-    status: "completed",
-    incidents: 298,
-    compliance: 91,
-  },
-];
+const defaultReports: any[] = [];
 
 export default function Reports() {
   const [open, setOpen] = useState(false);
+  const [reports, setReports] = useState(defaultReports);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/api/reports");
+        if (!res.ok) return;
+        const json = await res.json();
+        setReports(json ?? []);
+      } catch (e) {
+        console.error("Failed to load reports", e);
+      }
+    })();
+  }, []);
 
   const handleGenerate = () => {
     console.log("Generating new report...");

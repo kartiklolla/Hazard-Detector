@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "name": "DGMS Official Portal",
+      "url": "https://dgms.gov.in",
+      "status": "active",
+      "lastRun": "2 hours ago",
+      "itemsCollected": 23
+    },
+    {
+      "id": 2,
+      "name": "Regional Mine Inspections",
+      "url": "https://example-inspections.gov.in",
+      "status": "active",
+      "lastRun": "5 hours ago",
+      "itemsCollected": 15
+    },
+    {
+      "id": 3,
+      "name": "Mining News Aggregator",
+      "url": "https://mining-news.example.com",
+      "status": "paused",
+      "lastRun": "1 day ago",
+      "itemsCollected": 42
+    },
+    {
+      "id": 4,
+      "name": "Safety Bulletin Board",
+      "url": "https://safety-bulletins.example.gov.in",
+      "status": "active",
+      "lastRun": "30 minutes ago",
+      "itemsCollected": 8
+    }
+  ],
+  "recentActivity": [
+    { "id": 1, "timestamp": "2024-11-03 14:23:15", "source": "DGMS Official Portal", "action": "Scraped 5 new incident reports", "status": "success" },
+    { "id": 2, "timestamp": "2024-11-03 13:45:22", "source": "Regional Mine Inspections", "action": "Scraped 3 inspection updates", "status": "success" },
+    { "id": 3, "timestamp": "2024-11-03 12:10:08", "source": "Mining News Aggregator", "action": "Failed to connect - timeout", "status": "error" },
+    { "id": 4, "timestamp": "2024-11-03 11:30:45", "source": "Safety Bulletin Board", "action": "Scraped 2 safety alerts", "status": "success" }
+  ]
+}
