@@ -1,0 +1,675 @@
+{
+  "run_id": "55090389-073a-456d-81c5-71c2c38aaca9",
+  "extraction_agent_id": "1fdbb425-63a4-48de-9294-7c058d0814f7",
+  "data": {
+    "metadata": null,
+    "sections": [
+      {
+        "category": "GROUND MOVEMENT",
+        "subcategories": [
+          {
+            "subcategory": "Fall of Roof",
+            "entries": [
+              {
+                "mineral_or_cause": "Copper",
+                "below_ground": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                }
+              },
+              {
+                "mineral_or_cause": "Galena & Sphalarite",
+                "below_ground": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              },
+              {
+                "mineral_or_cause": "Gold",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              },
+              {
+                "mineral_or_cause": "Manganese",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              }
+            ],
+            "subtotal_row": {
+              "label": "TOTAL : Fall of Roof",
+              "below_ground": {
+                "fatal_accidents": 2,
+                "fatal_killed": 2,
+                "fatal_injured": 0,
+                "serious_accidents": 3,
+                "serious_injured": 3
+              },
+              "open_cast": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "above_ground": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "total": {
+                "fatal_accidents": 2,
+                "fatal_killed": 2,
+                "fatal_injured": 0,
+                "serious_accidents": 3,
+                "serious_injured": 3
+              }
+            }
+          },
+          {
+            "subcategory": "Fall of Sides (Other than Overhangs)",
+            "entries": [
+              {
+                "mineral_or_cause": "Manganese",
+                "below_ground": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                }
+              },
+              {
+                "mineral_or_cause": "Asbestos",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 2
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 2
+                }
+              },
+              {
+                "mineral_or_cause": "Iron",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              },
+              {
+                "mineral_or_cause": "Magnesite",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              },
+              {
+                "mineral_or_cause": "Stone",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              }
+            ],
+            "subtotal_row": {
+              "label": "TOTAL : Fall of Sides (Other than Overhangs)",
+              "below_ground": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 2,
+                "serious_injured": 2
+              },
+              "open_cast": {
+                "fatal_accidents": 4,
+                "fatal_killed": 5,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "above_ground": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "total": {
+                "fatal_accidents": 5,
+                "fatal_killed": 6,
+                "fatal_injured": 0,
+                "serious_accidents": 2,
+                "serious_injured": 2
+              }
+            }
+          }
+        ],
+        "total_category_row": {
+          "label": "TOTAL : GROUND MOVEMENT",
+          "below_ground": {
+            "fatal_accidents": 3,
+            "fatal_killed": 3,
+            "fatal_injured": 0,
+            "serious_accidents": 5,
+            "serious_injured": 5
+          },
+          "open_cast": {
+            "fatal_accidents": 4,
+            "fatal_killed": 5,
+            "fatal_injured": 0,
+            "serious_accidents": 0,
+            "serious_injured": 0
+          },
+          "above_ground": {
+            "fatal_accidents": 0,
+            "fatal_killed": 0,
+            "fatal_injured": 0,
+            "serious_accidents": 0,
+            "serious_injured": 0
+          },
+          "total": {
+            "fatal_accidents": 7,
+            "fatal_killed": 8,
+            "fatal_injured": 0,
+            "serious_accidents": 5,
+            "serious_injured": 5
+          }
+        }
+      },
+      {
+        "category": "TRANSPORTATION MACHINERY (WINDING)",
+        "subcategories": [
+          {
+            "subcategory": "Other Accident due to Winding Operation",
+            "entries": [
+              {
+                "mineral_or_cause": "Gold",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                }
+              }
+            ],
+            "subtotal_row": {
+              "label": "TOTAL: Other Accident due to Winding Operation",
+              "below_ground": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "open_cast": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "above_ground": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "total": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              }
+            }
+          },
+          {
+            "subcategory": "Hit by Cages, Skip etc.",
+            "entries": [
+              {
+                "mineral_or_cause": "China Clay/White-clay",
+                "below_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 1,
+                  "serious_injured": 1
+                }
+              }
+            ],
+            "subtotal_row": {
+              "label": "TOTAL : Hit by Cages, Skip etc.",
+              "below_ground": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 1,
+                "serious_injured": 1
+              },
+              "open_cast": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "above_ground": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "total": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 1,
+                "serious_injured": 1
+              }
+            }
+          },
+          {
+            "subcategory": "Overwinding of Cages/Skip (downgoing)",
+            "entries": [
+              {
+                "mineral_or_cause": "Galena & Sphalarite",
+                "below_ground": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "open_cast": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "above_ground": {
+                  "fatal_accidents": 0,
+                  "fatal_killed": 0,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                },
+                "total": {
+                  "fatal_accidents": 1,
+                  "fatal_killed": 1,
+                  "fatal_injured": 0,
+                  "serious_accidents": 0,
+                  "serious_injured": 0
+                }
+              }
+            ],
+            "subtotal_row": {
+              "label": "TOTAL : Overwinding of Cages/Skip (downgoing)",
+              "below_ground": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "open_cast": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "above_ground": {
+                "fatal_accidents": 0,
+                "fatal_killed": 0,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              },
+              "total": {
+                "fatal_accidents": 1,
+                "fatal_killed": 1,
+                "fatal_injured": 0,
+                "serious_accidents": 0,
+                "serious_injured": 0
+              }
+            }
+          }
+        ],
+        "total_category_row": {
+          "label": "TOTAL: TRANSPORTATION MACHINERY (WINDING)",
+          "below_ground": {
+            "fatal_accidents": 1,
+            "fatal_killed": 1,
+            "fatal_injured": 0,
+            "serious_accidents": 1,
+            "serious_injured": 1
+          },
+          "open_cast": {
+            "fatal_accidents": 0,
+            "fatal_killed": 0,
+            "fatal_injured": 0,
+            "serious_accidents": 0,
+            "serious_injured": 0
+          },
+          "above_ground": {
+            "fatal_accidents": 1,
+            "fatal_killed": 1,
+            "fatal_injured": 0,
+            "serious_accidents": 0,
+            "serious_injured": 0
+          },
+          "total": {
+            "fatal_accidents": 2,
+            "fatal_killed": 2,
+            "fatal_injured": 0,
+            "serious_accidents": 1,
+            "serious_injured": 1
+          }
+        }
+      }
+    ],
+    "all_india_total_row": {
+      "label": "ALL INDIA: ALL NON-COAL MINERALS",
+      "below_ground": {
+        "fatal_accidents": 4,
+        "fatal_killed": 4,
+        "fatal_injured": 0,
+        "serious_accidents": 10,
+        "serious_injured": 10
+      },
+      "open_cast": {
+        "fatal_accidents": 32,
+        "fatal_killed": 34,
+        "fatal_injured": 3,
+        "serious_accidents": 5,
+        "serious_injured": 6
+      },
+      "above_ground": {
+        "fatal_accidents": 9,
+        "fatal_killed": 10,
+        "fatal_injured": 10,
+        "serious_accidents": 20,
+        "serious_injured": 22
+      },
+      "total": {
+        "fatal_accidents": 45,
+        "fatal_killed": 48,
+        "fatal_injured": 13,
+        "serious_accidents": 35,
+        "serious_injured": 38
+      }
+    },
+    "unclassified_text": null
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 4,
+      "num_document_tokens": 9047,
+      "num_output_tokens": 3328
+    }
+  }
+}
