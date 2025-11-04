@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,77 +12,25 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-const mockIncidents = [
-  {
-    id: "INC-2024-001",
-    date: "2024-11-02",
-    location: "Jharkhand Coal Mine #4",
-    state: "Jharkhand",
-    mineType: "Underground Coal",
-    incidentType: "Methane Leak",
-    severity: "Critical",
-    fatalities: 0,
-    injuries: 3,
-    description: "Methane accumulation detected in shaft 4B during routine ventilation check",
-    rootCause: "Ventilation system malfunction",
-  },
-  {
-    id: "INC-2024-002",
-    date: "2024-11-01",
-    location: "Odisha Iron Ore Mine",
-    state: "Odisha",
-    mineType: "Open Pit",
-    incidentType: "Equipment Failure",
-    severity: "High",
-    fatalities: 0,
-    injuries: 1,
-    description: "Excavator hydraulic system failure during loading operations",
-    rootCause: "Insufficient maintenance schedule",
-  },
-  {
-    id: "INC-2024-003",
-    date: "2024-10-31",
-    location: "Chhattisgarh Underground",
-    state: "Chhattisgarh",
-    mineType: "Underground Coal",
-    incidentType: "Ground Movement",
-    severity: "Medium",
-    fatalities: 0,
-    injuries: 0,
-    description: "Minor roof subsidence in abandoned section",
-    rootCause: "Natural geological stress",
-  },
-  {
-    id: "INC-2024-004",
-    date: "2024-10-30",
-    location: "West Bengal Surface Mine",
-    state: "West Bengal",
-    mineType: "Surface",
-    incidentType: "Transportation",
-    severity: "Low",
-    fatalities: 0,
-    injuries: 0,
-    description: "Haul truck minor collision with stationary equipment",
-    rootCause: "Driver visibility issue",
-  },
-  {
-    id: "INC-2024-005",
-    date: "2024-10-29",
-    location: "Madhya Pradesh Quarry",
-    state: "Madhya Pradesh",
-    mineType: "Quarry",
-    incidentType: "Fire Hazard",
-    severity: "High",
-    fatalities: 0,
-    injuries: 2,
-    description: "Electrical fire in processing plant control room",
-    rootCause: "Aging electrical infrastructure",
-  },
-];
+const defaultIncidents: any[] = [];
 
 export default function Incidents() {
   const [expandedRow, setExpandedRow] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [incidents, setIncidents] = useState(defaultIncidents);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/api/incidents");
+        if (!res.ok) return;
+        const json = await res.json();
+        setIncidents(json ?? []);
+      } catch (e) {
+        console.error("Failed to load incidents", e);
+      }
+    })();
+  }, []);
 
   return (
     <div className="p-6 space-y-6">
@@ -156,7 +104,7 @@ export default function Incidents() {
                   </tr>
                 </thead>
                 <tbody>
-                  {mockIncidents.map((incident, index) => (
+                  {incidents.map((incident, index) => (
                     <>
                       <tr
                         key={incident.id}
@@ -269,7 +217,7 @@ export default function Incidents() {
 
           <div className="flex items-center justify-between mt-4">
             <p className="text-sm text-muted-foreground">
-              Showing 5 of 300 incidents
+              Showing {incidents.length} incidents
             </p>
             <div className="flex gap-2">
               <Button variant="outline" size="sm" disabled data-testid="button-prev-page">

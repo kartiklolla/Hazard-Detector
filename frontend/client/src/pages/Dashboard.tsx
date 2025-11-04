@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -10,28 +10,26 @@ import { Link } from "wouter";
 
 export default function Dashboard() {
   const [chatInput, setChatInput] = useState("");
-  const [incidentData, setIncidentData] = useState([
-    { month: "Jan", incidents: 12 },
-    { month: "Feb", incidents: 8 },
-    { month: "Mar", incidents: 15 },
-    { month: "Apr", incidents: 6 },
-    { month: "May", incidents: 11 },
-    { month: "Jun", incidents: 9 },
-  ]);
+  const [incidentData, setIncidentData] = useState<any[]>([]);
+  const [severityData, setSeverityData] = useState<any[]>([]);
+  const [newsUpdates, setNewsUpdates] = useState<any[]>([]);
+  const [overview, setOverview] = useState({ totalIncidents: 0, activeAlerts: 0, complianceRate: 0, locationsMonitored: 0 });
 
-  const severityData = [
-    { name: "Critical", value: 45, color: "hsl(var(--destructive))" },
-    { name: "High", value: 89, color: "hsl(var(--chart-4))" },
-    { name: "Medium", value: 112, color: "hsl(var(--chart-2))" },
-    { name: "Low", value: 54, color: "hsl(var(--chart-5))" },
-  ];
-
-  const newsUpdates = [
-    { id: 1, title: "DGMS releases new safety guidelines for underground coal mines", date: "2024-11-02", source: "DGMS Portal" },
-    { id: 2, title: "Jharkhand region reports 15% decrease in incidents in Q3", date: "2024-11-01", source: "Regional News" },
-    { id: 3, title: "New ventilation technology reduces methane risks by 30%", date: "2024-10-30", source: "Mining Tech News" },
-    { id: 4, title: "Annual safety compliance audit scheduled for December", date: "2024-10-28", source: "DGMS Portal" },
-  ];
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/api/dashboard");
+        if (!res.ok) return;
+        const json = await res.json();
+        setOverview(json.overview ?? {});
+        setIncidentData(json.incidentData ?? []);
+        setSeverityData(json.severityData ?? []);
+        setNewsUpdates(json.newsUpdates ?? []);
+      } catch (e) {
+        console.error("Failed to load dashboard data", e);
+      }
+    })();
+  }, []);
 
   const handleSendChat = () => {
     if (!chatInput.trim()) return;
@@ -66,7 +64,7 @@ export default function Dashboard() {
           </CardHeader>
           <CardContent>
             <div className="text-3xl font-bold font-mono text-primary" data-testid="text-total-incidents">
-              {incidentData.reduce((sum, item) => sum + item.incidents, 0)}
+              {overview.totalIncidents || incidentData.reduce((sum, item) => sum + (item.incidents || 0), 0)}
             </div>
             <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
               <TrendingDown className="h-3 w-3 text-green-500" />
@@ -81,7 +79,7 @@ export default function Dashboard() {
             <Activity className="h-4 w-4 text-secondary" />
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold font-mono text-secondary" data-testid="text-active-alerts">8</div>
+            <div className="text-3xl font-bold font-mono text-secondary" data-testid="text-active-alerts">{overview.activeAlerts ?? 0}</div>
             <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
               <TrendingUp className="h-3 w-3 text-destructive" />
               <span className="text-destructive">3 new</span> in last 24h
@@ -95,7 +93,7 @@ export default function Dashboard() {
             <TrendingUp className="h-4 w-4 text-accent" />
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold font-mono text-accent" data-testid="text-compliance-rate">87%</div>
+            <div className="text-3xl font-bold font-mono text-accent" data-testid="text-compliance-rate">{overview.complianceRate ? `${overview.complianceRate}%` : "0%"}</div>
             <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
               <TrendingUp className="h-3 w-3 text-green-500" />
               <span className="text-green-500">5% increase</span> from Q3
@@ -109,7 +107,7 @@ export default function Dashboard() {
             <MapPin className="h-4 w-4 text-chart-5" />
           </CardHeader>
           <CardContent>
-            <div className="text-3xl font-bold font-mono text-chart-5" data-testid="text-locations">127</div>
+            <div className="text-3xl font-bold font-mono text-chart-5" data-testid="text-locations">{overview.locationsMonitored ?? 0}</div>
             <p className="text-xs text-muted-foreground mt-1">Across 18 states</p>
           </CardContent>
         </Card>

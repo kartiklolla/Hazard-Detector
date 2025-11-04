@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Q3 2024 Safety Audit Report",
+    "type": "Safety Audit",
+    "date": "2024-10-15",
+    "status": "completed",
+    "incidents": 45,
+    "compliance": 89
+  },
+  {
+    "id": 2,
+    "title": "Jharkhand Regional Analysis",
+    "type": "Regional Analysis",
+    "date": "2024-10-10",
+    "status": "completed",
+    "incidents": 78,
+    "compliance": 85
+  },
+  {
+    "id": 3,
+    "title": "Methane Incident Deep Dive 2021-2024",
+    "type": "Incident Analysis",
+    "date": "2024-09-28",
+    "status": "completed",
+    "incidents": 127,
+    "compliance": 92
+  },
+  {
+    "id": 4,
+    "title": "Equipment Failure Trends Report",
+    "type": "Equipment Analysis",
+    "date": "2024-09-15",
+    "status": "completed",
+    "incidents": 67,
+    "compliance": 88
+  },
+  {
+    "id": 5,
+    "title": "Annual Compliance Review 2023",
+    "type": "Compliance Review",
+    "date": "2024-01-30",
+    "status": "completed",
+    "incidents": 298,
+    "compliance": 91
+  }
+]

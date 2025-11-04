@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -7,74 +7,27 @@ import { Badge } from "@/components/ui/badge";
 import { Globe, Play, Pause, RefreshCw, CheckCircle, Clock, AlertCircle } from "lucide-react";
 import { Textarea } from "@/components/ui/textarea";
 
-const sources = [
-  {
-    id: 1,
-    name: "DGMS Official Portal",
-    url: "https://dgms.gov.in",
-    status: "active",
-    lastRun: "2 hours ago",
-    itemsCollected: 23,
-  },
-  {
-    id: 2,
-    name: "Regional Mine Inspections",
-    url: "https://example-inspections.gov.in",
-    status: "active",
-    lastRun: "5 hours ago",
-    itemsCollected: 15,
-  },
-  {
-    id: 3,
-    name: "Mining News Aggregator",
-    url: "https://mining-news.example.com",
-    status: "paused",
-    lastRun: "1 day ago",
-    itemsCollected: 42,
-  },
-  {
-    id: 4,
-    name: "Safety Bulletin Board",
-    url: "https://safety-bulletins.example.gov.in",
-    status: "active",
-    lastRun: "30 minutes ago",
-    itemsCollected: 8,
-  },
-];
-
-const recentActivity = [
-  {
-    id: 1,
-    timestamp: "2024-11-03 14:23:15",
-    source: "DGMS Official Portal",
-    action: "Scraped 5 new incident reports",
-    status: "success",
-  },
-  {
-    id: 2,
-    timestamp: "2024-11-03 13:45:22",
-    source: "Regional Mine Inspections",
-    action: "Scraped 3 inspection updates",
-    status: "success",
-  },
-  {
-    id: 3,
-    timestamp: "2024-11-03 12:10:08",
-    source: "Mining News Aggregator",
-    action: "Failed to connect - timeout",
-    status: "error",
-  },
-  {
-    id: 4,
-    timestamp: "2024-11-03 11:30:45",
-    source: "Safety Bulletin Board",
-    action: "Scraped 2 safety alerts",
-    status: "success",
-  },
-];
+const defaultSources: any[] = [];
+const defaultActivity: any[] = [];
 
 export default function Scraper() {
   const [isAdding, setIsAdding] = useState(false);
+  const [sources, setSources] = useState(defaultSources);
+  const [recentActivity, setRecentActivity] = useState(defaultActivity);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/api/scraper");
+        if (!res.ok) return;
+        const json = await res.json();
+        setSources(json.sources ?? []);
+        setRecentActivity(json.recentActivity ?? []);
+      } catch (e) {
+        console.error("Failed to load scraper data", e);
+      }
+    })();
+  }, []);
 
   const handleAddSource = () => {
     console.log("Adding new scraping source...");
@@ -162,9 +115,9 @@ export default function Scraper() {
             </div>
           </CardHeader>
           <CardContent>
-            <h3 className="text-2xl font-bold font-mono mb-2">4</h3>
+            <h3 className="text-2xl font-bold font-mono mb-2">{sources.length}</h3>
             <p className="text-sm text-muted-foreground">Data Sources</p>
-            <p className="text-xs text-muted-foreground mt-1">3 active, 1 paused</p>
+            <p className="text-xs text-muted-foreground mt-1">{sources.filter((s) => s.status === "active").length} active, {sources.filter((s) => s.status !== "active").length} paused</p>
           </CardContent>
         </Card>
 
@@ -176,7 +129,7 @@ export default function Scraper() {
             </div>
           </CardHeader>
           <CardContent>
-            <h3 className="text-2xl font-bold font-mono mb-2">88</h3>
+            <h3 className="text-2xl font-bold font-mono mb-2">{sources.reduce((sum, s) => sum + (s.itemsCollected || 0), 0)}</h3>
             <p className="text-sm text-muted-foreground">Items Collected</p>
             <p className="text-xs text-green-600 dark:text-green-400 mt-1">+12% vs yesterday</p>
           </CardContent>
@@ -190,7 +143,7 @@ export default function Scraper() {
             </div>
           </CardHeader>
           <CardContent>
-            <h3 className="text-2xl font-bold font-mono mb-2">97%</h3>
+            <h3 className="text-2xl font-bold font-mono mb-2">{Math.round((recentActivity.filter((a) => a.status === "success").length / Math.max(1, recentActivity.length)) * 100) || 0}%</h3>
             <p className="text-sm text-muted-foreground">Success Rate</p>
             <p className="text-xs text-muted-foreground mt-1">Last 24 hours</p>
           </CardContent>

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "chat-1",
+    "role": "assistant",
+    "content": "Hello! I'm your Digital Mine Safety Officer. I can help you analyze DGMS incident data, identify patterns, and provide compliance recommendations. What would you like to know?",
+    "timestamp": "2025-11-04T00:00:00.000Z",
+    "metadata": null
+  }
+]

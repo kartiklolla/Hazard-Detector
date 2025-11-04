@@ -1,0 +1,28 @@
+{
+  "overview": {
+    "totalIncidents": 61,
+    "activeAlerts": 8,
+    "complianceRate": 87,
+    "locationsMonitored": 127
+  },
+  "incidentData": [
+    { "month": "Jan", "incidents": 12 },
+    { "month": "Feb", "incidents": 8 },
+    { "month": "Mar", "incidents": 15 },
+    { "month": "Apr", "incidents": 6 },
+    { "month": "May", "incidents": 11 },
+    { "month": "Jun", "incidents": 9 }
+  ],
+  "severityData": [
+    { "name": "Critical", "value": 45, "color": "hsl(var(--destructive))" },
+    { "name": "High", "value": 89, "color": "hsl(var(--chart-4))" },
+    { "name": "Medium", "value": 112, "color": "hsl(var(--chart-2))" },
+    { "name": "Low", "value": 54, "color": "hsl(var(--chart-5))" }
+  ],
+  "newsUpdates": [
+    { "id": 1, "title": "DGMS releases new safety guidelines for underground coal mines", "date": "2024-11-02", "source": "DGMS Portal" },
+    { "id": 2, "title": "Jharkhand region reports 15% decrease in incidents in Q3", "date": "2024-11-01", "source": "Regional News" },
+    { "id": 3, "title": "New ventilation technology reduces methane risks by 30%", "date": "2024-10-30", "source": "Mining Tech News" },
+    { "id": 4, "title": "Annual safety compliance audit scheduled for December", "date": "2024-10-28", "source": "DGMS Portal" }
+  ]
+}
