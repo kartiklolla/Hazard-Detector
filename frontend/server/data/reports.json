@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Fatal accident GEVRA OCM FA - 23.07.2025",
+    "type": "Safety Alert",
+    "date": "2025-07-23",
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety21_25092025.pdf"
+  },
+  {
+    "id": 2,
+    "title": "Fatal accident Surya Granites - 19.06.2025",
+    "type": "Safety Alert",
+    "date": "2025-06-19",
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety20_25092025.pdf"
+  },
+  {
+    "id": 3,
+    "title": "Fatal accident at Gevra OCM - 18.06.2025",
+    "type": "Safety Alert",
+    "date": "2025-06-18",
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety19_25092025.pdf"
+  },
+  {
+    "id": 4,
+    "title": "Fatal accident Gevra Opencast Mine - 27.05.2025",
+    "type": "Safety Alert",
+    "date": "2025-05-27",
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety18_25092025.pdf"
+  },
+  {
+    "id": 5,
+    "title": "Fatal accident M s Sneha Crusher, Kolar",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety17_25092025.pdf"
+  },
+  {
+    "id": 6,
+    "title": "Fatal accident Ashok Kumar HS Building Stone Quarry, Tumkur",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety16_25092025.pdf"
+  },
+  {
+    "id": 7,
+    "title": "Fatal accident Gua Ore Mines - 22.06.2025",
+    "type": "Safety Alert",
+    "date": "2025-06-22",
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety15_25092025.pdf"
+  },
+  {
+    "id": 8,
+    "title": "Fatal accident Balram OCP - 12.03.2025",
+    "type": "Safety Alert",
+    "date": "2025-03-12",
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety14_25092025.pdf"
+  },
+  {
+    "id": 9,
+    "title": "Fatal accident Sindesar Khurd Ore Beneficiation Plant",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": 1,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safety13_25092025.pdf"
+  },
+  {
+    "id": 10,
+    "title": "Fatal accident occurred due to overturning of bus carrying mine employees at Dulanga Coal Mine Project (OC) of M/s NTPC Limited",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/12_Safetyalert_20082025.pdf"
+  },
+  {
+    "id": 11,
+    "title": "Fatal accident due to fall of person in same level while handling water hose pipe of twin bolter machine",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/11_SafetyAlert_20082025.pdf"
+  },
+  {
+    "id": 12,
+    "title": "Fatal accident Gare Palma IV2&3 Opencast Coal Mine - 18.04.2025",
+    "type": "Safety Alert",
+    "date": "2025-04-18",
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/10_SafetyAlert_20082025.pdf"
+  },
+  {
+    "id": 13,
+    "title": "Fatal accident occurred due to fall of person from a height at WD-51, Workover Oil Well Mine of M/s ONGC Ltd",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/09_SAFETYALERT_20082025.pdf"
+  },
+  {
+    "id": 14,
+    "title": "Fatal accident occurred due to Fall of roof at Chhatarpur Mine No.1 UG - Lower Workable Seam",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/Safetyalert_14082025.pdf"
+  },
+  {
+    "id": 15,
+    "title": "Fatal accident: FALL OF ROOF IN AN UNDERGROUND MANGANESE MINE",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/AccidentAlert_14082025.pdf"
+  },
+  {
+    "id": 16,
+    "title": "Fatal accident due to piercing of a roof bolt in the neck of an LHD operator (Manendragarh-Chirimiri-Bharatpur District, Chhattisgarh)",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/fccumine_28022025.pdf"
+  },
+  {
+    "id": 17,
+    "title": "Fatal accident: fire due to oil and gas leak from PSV of a heater treater at GGS of a production oil mine (Jorhat District, Assam)",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/pvs_31012025.pdf"
+  },
+  {
+    "id": 18,
+    "title": "Fatal accident due to drowning of persons in lined waste pit at a CBM mine",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/5fa_30012025.pdf"
+  },
+  {
+    "id": 19,
+    "title": "Fatal accident to truck driver due to head-to-tail collision of two tippers in opencast coal mine",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/4fa_30012025.pdf"
+  },
+  {
+    "id": 20,
+    "title": "Fatal accident to shovel operator due to burn injuries from hot steam while loading coal from a fiery seam (Dhanbad District, Jharkhand)",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/3FA_30012025.pdf"
+  },
+  {
+    "id": 21,
+    "title": "Fatal accident due to fall of person into underground coal bunker (~50 m depth) (Paschim Bardhaman District, West Bengal)",
+    "type": "Safety Alert",
+    "date": null,
+    "status": "published",
+    "incidents": null,
+    "compliance": null,
+    "url": "https://www.dgms.gov.in/writereaddata/UploadFile/2FA_30012025.pdf"
+  }
+]

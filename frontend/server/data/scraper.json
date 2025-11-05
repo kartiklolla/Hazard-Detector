@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "name": "DGMS Official Portal",
+      "url": "https://dgms.gov.in",
+      "status": "active",
+      "lastRun": "2 hours ago",
+      "itemsCollected": 23
+    }
+  ],
+  "recentActivity": [
+    { "id": 1, "timestamp": "2024-11-03 14:23:15", "source": "DGMS Official Portal", "action": "Scraped 5 new incident reports", "status": "success" },
+    { "id": 2, "timestamp": "2024-11-03 13:45:22", "source": "Regional Mine Inspections", "action": "Scraped 3 inspection updates", "status": "success" },
+    { "id": 3, "timestamp": "2024-11-03 12:10:08", "source": "Mining News Aggregator", "action": "Failed to connect - timeout", "status": "error" },
+    { "id": 4, "timestamp": "2024-11-03 11:30:45", "source": "Safety Bulletin Board", "action": "Scraped 2 safety alerts", "status": "success" }
+  ]
+}

@@ -311,27 +311,13 @@ export default function Analytics() {
             </Card>
           </div>
         </TabsContent>
-
         <TabsContent value="predictions" className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>AI-Powered Predictions</CardTitle>
+              <CardTitle>Predictions</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                <div className="p-4 border-l-4 border-l-destructive bg-destructive/5 rounded">
-                  <div className="flex items-start justify-between gap-4 mb-2">
-                    <h4 className="font-semibold">High Risk Alert - Jharkhand Region</h4>
-                    <Badge variant="destructive">87% Confidence</Badge>
-                  </div>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    Predicted increase in methane incidents in Q4 2024 based on historical patterns and current ventilation reports
-                  </p>
-                  <div className="text-xs text-muted-foreground">
-                    <strong>Recommendation:</strong> Increase ventilation inspections and monitoring frequency
-                  </div>
-                </div>
-
                 <div className="p-4 border-l-4 border-l-chart-2 bg-chart-2/5 rounded">
                   <div className="flex items-start justify-between gap-4 mb-2">
                     <h4 className="font-semibold">Equipment Maintenance Alert</h4>

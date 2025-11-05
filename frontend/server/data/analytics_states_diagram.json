@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "uniqueStates": 15,
+    "uniqueMinerals": 16,
+    "totalMineralStatePairs": 30
+  },
+  "minerals": [
+    { "mineral": "OIL", "stateCount": 5, "states": ["ANDHRA PRADESH","ASSAM","GUJARAT","MADHYA PRADESH","TRIPURA"] },
+    { "mineral": "ASBESTOS", "stateCount": 1, "states": ["RAJASTHAN"] },
+    { "mineral": "CHINA CLAY", "stateCount": 1, "states": ["JHARKHAND"] },
+    { "mineral": "COPPER", "stateCount": 1, "states": ["RAJASTHAN"] },
+    { "mineral": "GALENA & SPHALARITE", "stateCount": 1, "states": ["RAJASTHAN"] },
+    { "mineral": "GOLD", "stateCount": 1, "states": ["KARNATAKA"] },
+    { "mineral": "GRANITE", "stateCount": 2, "states": ["ANDHRA PRADESH","KARNATAKA"] },
+    { "mineral": "IRON", "stateCount": 5, "states": ["CHHATTISGARH","JHARKHAND","KARNATAKA","ORISSA","RAJASTHAN"] },
+    { "mineral": "LIMESTONE", "stateCount": 4, "states": ["ANDHRA PRADESH","HIMACHAL PRADESH","RAJASTHAN","TAMILNADU"] },
+    { "mineral": "MAGNESITE", "stateCount": 1, "states": ["TAMILNADU"] },
+    { "mineral": "MANGANESE", "stateCount": 2, "states": ["MADHYA PRADESH","MAHARASHTRA"] },
+    { "mineral": "MARBLE", "stateCount": 1, "states": ["RAJASTHAN"] },
+    { "mineral": "SANDSTONE", "stateCount": 1, "states": ["RAJASTHAN"] },
+    { "mineral": "SILICA", "stateCount": 1, "states": ["RAJASTHAN"] },
+    { "mineral": "SILLIMANITE", "stateCount": 1, "states": ["KERALA"] },
+    { "mineral": "STONE", "stateCount": 2, "states": ["ANDHRA PRADESH","UTTAR PRADESH"] }
+  ],
+  "states": [
+    { "state": "ANDHRA PRADESH", "mineralCount": 4, "minerals": ["OIL","GRANITE","LIMESTONE","STONE"] },
+    { "state": "ASSAM", "mineralCount": 1, "minerals": ["OIL"] },
+    { "state": "GUJARAT", "mineralCount": 1, "minerals": ["OIL"] },
+    { "state": "MADHYA PRADESH", "mineralCount": 2, "minerals": ["OIL","MANGANESE"] },
+    { "state": "TRIPURA", "mineralCount": 1, "minerals": ["OIL"] },
+    { "state": "RAJASTHAN", "mineralCount": 8, "minerals": ["ASBESTOS","COPPER","GALENA & SPHALARITE","IRON","LIMESTONE","MARBLE","SANDSTONE","SILICA"] },
+    { "state": "JHARKHAND", "mineralCount": 2, "minerals": ["CHINA CLAY","IRON"] },
+    { "state": "KARNATAKA", "mineralCount": 3, "minerals": ["GOLD","GRANITE","IRON"] },
+    { "state": "CHHATTISGARH", "mineralCount": 1, "minerals": ["IRON"] },
+    { "state": "ORISSA", "mineralCount": 1, "minerals": ["IRON"] },
+    { "state": "HIMACHAL PRADESH", "mineralCount": 1, "minerals": ["LIMESTONE"] },
+    { "state": "TAMILNADU", "mineralCount": 2, "minerals": ["LIMESTONE","MAGNESITE"] },
+    { "state": "MAHARASHTRA", "mineralCount": 1, "minerals": ["MANGANESE"] },
+    { "state": "KERALA", "mineralCount": 1, "minerals": ["SILLIMANITE"] },
+    { "state": "UTTAR PRADESH", "mineralCount": 1, "minerals": ["STONE"] }
+  ]
+}

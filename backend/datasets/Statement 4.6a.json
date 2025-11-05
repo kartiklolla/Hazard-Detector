@@ -1,0 +1,1350 @@
+{
+  "run_id": "51e30d05-5b17-4090-b2dc-f115f9750e51",
+  "extraction_agent_id": "d6e7ae74-be72-4919-b40b-dd78a0c21880",
+  "data": {
+    "records": [
+      {
+        "mineral": "OIL",
+        "state": "ANDHRA PRADESH",
+        "district": "EAST GODAVARI",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "ASSAM",
+        "district": "DIBRUGARH",
+        "accidents": {
+          "fatal": 0,
+          "serious": 6
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 6,
+            "female": 0
+          },
+          "total": 6
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "ASSAM",
+        "district": "SIBSAGAR",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "GUJARAT",
+        "district": "BHARUCH",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 2,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 10,
+            "female": 0
+          },
+          "total": 10
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "GUJARAT",
+        "district": "GANDHINAGAR",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "GUJARAT",
+        "district": "MEHASANA",
+        "accidents": {
+          "fatal": 0,
+          "serious": 5
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 7,
+            "female": 0
+          },
+          "total": 7
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "MADHYA PRADESH",
+        "district": "SHAHDOL",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "OIL",
+        "state": "TRIPURA",
+        "district": "WEST TRIPURA",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "ASBESTOS",
+        "state": "RAJASTHAN",
+        "district": "UDAIPUR",
+        "accidents": {
+          "fatal": 3,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 4,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 4,
+            "female": 0
+          },
+          "total": 4
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "CHINA CLAY, CLAY, WHITE-CLAY",
+        "state": "JHARKHAND",
+        "district": "SAHEBGANJ",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "COPPER",
+        "state": "RAJASTHAN",
+        "district": "JHUNJHUNU",
+        "accidents": {
+          "fatal": 1,
+          "serious": 2
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 2
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 2
+        }
+      },
+      {
+        "mineral": "GALENA & SPHALARITE",
+        "state": "RAJASTHAN",
+        "district": "AJMER",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "GALENA & SPHALARITE",
+        "state": "RAJASTHAN",
+        "district": "BHILWARA",
+        "accidents": {
+          "fatal": 1,
+          "serious": 2
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 2
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 2
+        }
+      },
+      {
+        "mineral": "GOLD",
+        "state": "KARNATAKA",
+        "district": "RAICHUR",
+        "accidents": {
+          "fatal": 1,
+          "serious": 4
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 3,
+            "female": 0
+          },
+          "total": 4
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "GRANITE",
+        "state": "ANDHRA PRADESH",
+        "district": "PRAKASHAM",
+        "accidents": {
+          "fatal": 3,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 3,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 3,
+            "female": 0
+          },
+          "total": 3
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "GRANITE",
+        "state": "KARNATAKA",
+        "district": "BAGALKOT",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "CHHATTISGARH",
+        "district": "DANTEWARA",
+        "accidents": {
+          "fatal": 0,
+          "serious": 4
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 2,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 3,
+            "female": 0
+          },
+          "total": 5
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "CHHATTISGARH",
+        "district": "BALOD",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "JHARKHAND",
+        "district": "WEST SINGBHUM",
+        "accidents": {
+          "fatal": 1,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "KARNATAKA",
+        "district": "BELLARY",
+        "accidents": {
+          "fatal": 1,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "ORISSA",
+        "district": "KEONJHAR",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "ORISSA",
+        "district": "SUNDERGARH",
+        "accidents": {
+          "fatal": 2,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "IRON",
+        "state": "RAJASTHAN",
+        "district": "BHILWARA",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "state": "ANDHRA PRADESH",
+        "district": "RANGA REDDY",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "state": "HIMACHAL PRADESH",
+        "district": "BILASPUR",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "state": "RAJASTHAN",
+        "district": "KOTA",
+        "accidents": {
+          "fatal": 2,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 2,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "LIMESTONE",
+        "state": "TAMILNADU",
+        "district": "TIRUNELVELI",
+        "accidents": {
+          "fatal": 2,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 2,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "MAGNESITE",
+        "state": "TAMILNADU",
+        "district": "SALEM",
+        "accidents": {
+          "fatal": 2,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 2,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "state": "MADHYA PRADESH",
+        "district": "BALAGHAT",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "MANGANESE",
+        "state": "MAHARASHTRA",
+        "district": "BHANDARA",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 1
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "MARBLE",
+        "state": "RAJASTHAN",
+        "district": "RAJSAMAND",
+        "accidents": {
+          "fatal": 8,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 8,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 8,
+            "female": 0
+          },
+          "total": 8
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "SANDSTONE",
+        "state": "RAJASTHAN",
+        "district": "NAGAUR",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "SILICA",
+        "state": "RAJASTHAN",
+        "district": "KARAULI",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 1,
+            "female": 0
+          },
+          "total": 1
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "SILLIMANITE",
+        "state": "KERALA",
+        "district": "KOLLAM",
+        "accidents": {
+          "fatal": 0,
+          "serious": 1
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      },
+      {
+        "mineral": "STONE",
+        "state": "ANDHRA PRADESH",
+        "district": "GUNTUR",
+        "accidents": {
+          "fatal": 1,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 2,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 2,
+            "female": 0
+          },
+          "total": 2
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 0,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 0
+        }
+      },
+      {
+        "mineral": "STONE",
+        "state": "UTTAR PRADESH",
+        "district": "SONEBHADRA",
+        "accidents": {
+          "fatal": 5,
+          "serious": 0
+        },
+        "persons_killed": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 5,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 5,
+            "female": 0
+          },
+          "total": 5
+        },
+        "persons_seriously_injured": {
+          "below_ground": {
+            "male": 0
+          },
+          "opencast": {
+            "male": 1,
+            "female": 0
+          },
+          "above_ground": {
+            "male": 0,
+            "female": 0
+          },
+          "total": 1
+        }
+      }
+    ]
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 7,
+      "num_document_tokens": 7357,
+      "num_output_tokens": 4080
+    }
+  }
+}

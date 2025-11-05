@@ -1,0 +1,174 @@
+{
+  "Causes of Accident": {
+    "Ground movement": {
+      "0111": "Fall of roof",
+      "0112": "Fall of sides (other than overhangs)",
+      "0113": "Fall of overhang",
+      "0114": "Rock burst/bumps",
+      "0115": "Air blast",
+      "0116": "Premature collapse of workings/pillars",
+      "0117": "Subsidence",
+      "0118": "Landslide",
+      "0119": "Collapse of shaft"
+    },
+    "Transportation machinery (winding)": {
+      "0221": "Overwinding of cages/skip, etc. (upgoing)",
+      "0222": "Breakage of rope, chain, draw/suspension gear",
+      "0223": "Falls of persons from cages, skip, etc.",
+      "0224": "Falling of objects from cages, skip, etc.",
+      "0225": "Hit by cages, skip, etc.",
+      "0228": "Overwinding of cages/skip (downgoing)",
+      "0229": "Other accident due to winding operation"
+    },
+    "Transportation machinery (non-winding)": {
+      "0331": "Aerial ropeway",
+      "0332": "Rope haulage",
+      "0333": "Other rail transportation",
+      "0334": "Conveyors",
+      "0335": "Dumpers",
+      "0336": "Wagon movements",
+      "0339": "Wheeled trackless (truck, tanker, etc.)"
+    },
+    "Machinery other than transportation machinery": {
+      "0441": "Drilling machines",
+      "0442": "Cutting machines",
+      "0443": "Loading machines",
+      "0444": "Haulage engine",
+      "0445": "Winding engine",
+      "0446": "Shovel, dragline, frontend loader, etc.",
+      "0447": "Crushing & screening plants",
+      "0448": "Other heavy earth moving machinery",
+      "0449": "Other non-transportation machinery"
+    },
+    "Explosives": {
+      "0551": "Solid blasting projectiles",
+      "0552": "Deep hole blasting projectiles",
+      "0553": "Secondary blasting projectiles",
+      "0554": "Other projectiles",
+      "0555": "Misfires/sockets (while drilling into)",
+      "0556": "Misfire/socket (other than drilling into)",
+      "0557": "Delayed ignition",
+      "0558": "Blown through shots",
+      "0559": "Other explosive accident"
+    },
+    "Electricity": {
+      "0661": "Overhead lines",
+      "0662": "Trailing cables",
+      "0663": "Switch gears, gate end boxes, pommel, etc.",
+      "0664": "Energized machines",
+      "0665": "Power cables other than trailing cables",
+      "0669": "Other electrical accidents"
+    },
+    "Dust, gas & other combustible material": {
+      "0771": "Occurrence of gas",
+      "0772": "Influx of gas",
+      "0774": "Explosion/ignition of gas/dust, etc.",
+      "0775": "Outbreak of fire or spontaneous heating",
+      "0776": "Well blowout (with fire)",
+      "0777": "Well blowout (without fire)",
+      "0778": "Other combustible material",
+      "0779": "Other accidents due to dust/gas/fire"
+    },
+    "Falls (other than fall of ground)": {
+      "0881": "Fall of person from height/into depth",
+      "0882": "Fall of persons on the same level",
+      "0883": "Fall of objects including rolling objects",
+      "0889": "Other accident due to falls"
+    },
+    "Other causes": {
+      "0991": "Irruption of water",
+      "0992": "Flying pieces (except due to explosives)",
+      "0993": "Drowning in water",
+      "0994": "Buried in sands, etc.",
+      "0995": "Bursting/leakage of oil pipelines",
+      "0999": "Unclassified"
+    }
+  },
+
+  "Places of Accident": {
+    "Below Ground": {
+      "Development area": {
+        "111": "<10m of development face",
+        "112": ">10m and within working district"
+      },
+      "Long wall panel": {
+        "121": ">10m of long wall face",
+        "122": "Gate roads in long wall panels"
+      },
+      "Depillaring / stoping": {
+        "131": "<10m of face",
+        "132": ">10m but <30m",
+        "133": ">30m but within working district"
+      },
+      "Outside working district": {
+        "141": "Traveling roadways",
+        "149": "Unclassified"
+      },
+      "Tramming roadways": {
+        "151": "Within district",
+        "152": "Outside district"
+      },
+      "Haulage roadways (within district)": {
+        "161": "Rope haulage roadways",
+        "162": "Conveyor roadways",
+        "163": "Loco roadways",
+        "169": "Unclassified"
+      },
+      "Haulage roadways (outside district)": {
+        "171": "Rope haulage roadways",
+        "172": "Conveyor roadways",
+        "173": "Loco roadways",
+        "179": "Unclassified"
+      },
+      "Other": {
+        "180": "Shaft",
+        "199": "Other below ground places"
+      }
+    },
+    "Opencast": {
+      "Benches": {
+        "211": "Waste/overburden alluvium",
+        "212": "Waste/overburden float",
+        "213": "Waste/overburden hard rock",
+        "214": "Coal/ore benches"
+      },
+      "Quarry (other than benches)": {
+        "221": "Top of the quarry",
+        "222": "Bed of the quarry"
+      },
+      "Roads": {
+        "231": "Haul roads",
+        "232": "Rope haulage roads",
+        "239": "Other transportation roads"
+      },
+      "Other open cast places": {
+        "241": "Waste dump",
+        "249": "Other places (specify)"
+      }
+    },
+    "Above Ground": {
+      "Transportation road/sites": {
+        "311": "Aerial ropeways",
+        "312": "Rope haulage roads",
+        "313": "Wheeled trackless transportation roads",
+        "314": "Railway lines belonging to mines",
+        "315": "Petroleum pipelines",
+        "319": "Unclassified"
+      },
+      "Plant sites": {
+        "321": "Site of ore handling plants",
+        "322": "Workshop, powerhouse, engine room, etc.",
+        "323": "Erection/rigging site",
+        "324": "Gas collection/compression/group gathering station",
+        "325": "Oil wells/water inject wells",
+        "329": "Unclassified"
+      },
+      "Other above ground places": {
+        "331": "Depot",
+        "332": "Waste dump",
+        "333": "Water reservoir",
+        "339": "Unclassified"
+      }
+    }
+  }
+}

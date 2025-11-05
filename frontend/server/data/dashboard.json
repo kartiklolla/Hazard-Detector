@@ -1,0 +1,66 @@
+{
+  "overview": {
+    "totalIncidents": 90,
+    "computedFatalAccidents": 90,
+    "activeAlerts": 8,
+    "complianceRate": 87,
+    "locationsMonitored": 127
+  },
+  "incidentData": [
+    { "month": "Jan", "incidents": 1 },
+    { "month": "Feb", "incidents": 1 },
+    { "month": "Mar", "incidents": 0 },
+    { "month": "Apr", "incidents": 0 },
+    { "month": "May", "incidents": 1 },
+    { "month": "Jun", "incidents": 0 },
+    { "month": "Jul", "incidents": 1 },
+    { "month": "Aug", "incidents": 1 },
+    { "month": "Sep", "incidents": 2 },
+    { "month": "Oct", "incidents": 1 },
+    { "month": "Nov", "incidents": 2 },
+    { "month": "Dec", "incidents": 0 }
+  ],
+  "severityData": [
+    { "name": "Critical", "value": 90, "color": "hsl(var(--destructive))" },
+    { "name": "High", "value": 35, "color": "hsl(var(--chart-4))" },
+    { "name": "Medium", "value": 0, "color": "hsl(var(--chart-2))" },
+    { "name": "Low", "value": 0, "color": "hsl(var(--chart-5))" }
+  ],
+  "newsUpdates": [
+    { "id": 1, "title": "DGMS releases new safety guidelines for underground coal mines", "date": "2024-11-02", "source": "DGMS Portal" },
+    { "id": 2, "title": "Jharkhand region reports 15% decrease in incidents in Q3", "date": "2024-11-01", "source": "Regional News" },
+    { "id": 3, "title": "New ventilation technology reduces methane risks by 30%", "date": "2024-10-30", "source": "Mining Tech News" },
+    { "id": 4, "title": "Annual safety compliance audit scheduled for December", "date": "2024-10-28", "source": "DGMS Portal" }
+  ]
+  ,
+  "regionalSummary": [
+    { "region": "Guwahati", "fatal_accidents": 2, "killed": 2, "injured": 0, "serious_accidents": 6, "serious_injured": 6, "statement_no": "4.10" },
+    { "region": "Sitarampur III", "fatal_accidents": 0, "killed": 0, "injured": 0, "serious_accidents": 1, "serious_injured": 1, "statement_no": "4.10" },
+    { "region": "Eastern Zone", "fatal_accidents": 2, "killed": 2, "injured": 0, "serious_accidents": 7, "serious_injured": 7, "statement_no": "4.10" },
+    { "region": "Ahmedabad", "fatal_accidents": 0, "killed": 0, "injured": 0, "serious_accidents": 6, "serious_injured": 8, "statement_no": "4.10" },
+    { "region": "Surat", "fatal_accidents": 1, "killed": 2, "injured": 10, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Udaipur", "fatal_accidents": 12, "killed": 13, "injured": 0, "serious_accidents": 2, "serious_injured": 2, "statement_no": "4.10" },
+    { "region": "Western Zone", "fatal_accidents": 13, "killed": 15, "injured": 10, "serious_accidents": 8, "serious_injured": 10, "statement_no": "4.10" },
+    { "region": "Ajmer", "fatal_accidents": 4, "killed": 4, "injured": 0, "serious_accidents": 5, "serious_injured": 5, "statement_no": "4.10" },
+    { "region": "Gwalior", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Ghaziabad", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 1, "serious_injured": 1, "statement_no": "4.10" },
+    { "region": "Udaipur", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Varanasi", "fatal_accidents": 5, "killed": 5, "injured": 1, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Northern Zone", "fatal_accidents": 12, "killed": 12, "injured": 1, "serious_accidents": 6, "serious_injured": 6, "statement_no": "4.10" },
+    { "region": "Hyderabad I", "fatal_accidents": 0, "killed": 0, "injured": 0, "serious_accidents": 1, "serious_injured": 1, "statement_no": "4.10" },
+    { "region": "Hyderabad II", "fatal_accidents": 5, "killed": 6, "injured": 0, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Central Zone", "fatal_accidents": 5, "killed": 6, "injured": 0, "serious_accidents": 1, "serious_injured": 1, "statement_no": "4.10" },
+    { "region": "Chaibasa", "fatal_accidents": 3, "killed": 3, "injured": 0, "serious_accidents": 2, "serious_injured": 2, "statement_no": "4.10" },
+    { "region": "Eastern Zone", "fatal_accidents": 3, "killed": 3, "injured": 0, "serious_accidents": 2, "serious_injured": 2, "statement_no": "4.10" },
+    { "region": "Bangluru", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 1, "serious_injured": 1, "statement_no": "4.10" },
+    { "region": "Bellary", "fatal_accidents": 3, "killed": 3, "injured": 1, "serious_accidents": 5, "serious_injured": 5, "statement_no": "4.10" },
+    { "region": "Chennai", "fatal_accidents": 3, "killed": 3, "injured": 1, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Southern Zone", "fatal_accidents": 7, "killed": 7, "injured": 2, "serious_accidents": 6, "serious_injured": 6, "statement_no": "4.10" },
+    { "region": "Bilaspur", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 4, "serious_injured": 5, "statement_no": "4.10" },
+    { "region": "Jabalpur", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 0, "serious_injured": 0, "statement_no": "4.10" },
+    { "region": "Nagpur I", "fatal_accidents": 1, "killed": 1, "injured": 0, "serious_accidents": 1, "serious_injured": 1, "statement_no": "4.10" },
+    { "region": "Western Zone", "fatal_accidents": 3, "killed": 3, "injured": 0, "serious_accidents": 5, "serious_injured": 6, "statement_no": "4.10" },
+    { "region": "ALL INDIA", "fatal_accidents": 45, "killed": 48, "injured": 13, "serious_accidents": 35, "serious_injured": 38, "statement_no": "4.10" }
+  ]
+}
+

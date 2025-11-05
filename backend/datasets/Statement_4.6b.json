@@ -1,0 +1,1519 @@
+{
+  "run_id": "d2227fd7-d292-4c43-9c0e-3b0da8fa61fb",
+  "extraction_agent_id": "1fdbb425-63a4-48de-9294-7c058d0814f7",
+  "data": {
+    "minerals": [
+      {
+        "mineral_name": "OIL",
+        "states": [
+          {
+            "state_name": "ANDHRA PRADESH",
+            "districts": [
+              {
+                "district_name": "EAST GODAVARI",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.55,
+                    "overall": 0.55
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.55,
+                "overall": 0.55
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "ASSAM",
+            "districts": [
+              {
+                "district_name": "DIBRUGARH",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 1.43,
+                    "overall": 1.43
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "SIBSAGAR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.21,
+                    "overall": 0.21
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.11,
+                "overall": 0.11
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.65,
+                "overall": 0.65
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "GUJARAT",
+            "districts": [
+              {
+                "district_name": "BHARUCH",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.94,
+                    "overall": 0.94
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 4.68,
+                    "overall": 4.68
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "GANDHINAGAR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 15.63,
+                    "overall": 15.63
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "MEHASANA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 1.6,
+                    "overall": 1.6
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.21,
+                "overall": 0.21
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 1.93,
+                "overall": 1.93
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "MADHYA PRADESH",
+            "districts": [
+              {
+                "district_name": "SHAHDOL",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 4.37,
+                    "overall": 4.37
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 4.37,
+                "overall": 4.37
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "TRIPURA",
+            "districts": [
+              {
+                "district_name": "WEST TRIPURA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 3.28,
+                    "overall": 3.28
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 3.28,
+                "overall": 3.28
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": 0.18,
+            "overall": 0.18
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": 0.88,
+            "overall": 0.88
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "ASBESTOS",
+        "states": [
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "UDAIPUR",
+                "casualty_rates": null,
+                "notes": "Employment figures not available"
+              }
+            ],
+            "total_state_summary": null,
+            "notes": "Employment figures not available"
+          }
+        ],
+        "all_india_summary": null,
+        "notes": "Employment figures not available"
+      },
+      {
+        "mineral_name": "CHINA CLAY",
+        "states": [
+          {
+            "state_name": "JHARKHAND",
+            "districts": [
+              {
+                "district_name": "SAHEBGANJ",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 31.25,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 2.34
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": 31.25,
+                "oc": null,
+                "ag": null,
+                "overall": 1.82
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": null,
+            "overall": null
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": 31.25,
+            "oc": null,
+            "ag": null,
+            "overall": 0.41
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "COPPER",
+        "states": [
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "JHUNJHUNU",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": 1.12,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 0.85
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 2.24,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 1.7
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 1.12,
+                "oc": null,
+                "ag": null,
+                "overall": 0.85
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": 2.24,
+                "oc": null,
+                "ag": null,
+                "overall": 1.7
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": 0.58,
+            "oc": null,
+            "ag": null,
+            "overall": 0.39
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": 1.15,
+            "oc": null,
+            "ag": null,
+            "overall": 0.79
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "GALENA & SPHALARITE",
+        "states": [
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "AJMER",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": 2.4,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 1.8
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "BHILWARA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 12.99,
+                    "ag": null,
+                    "overall": 0.89
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 2.46,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 1.78
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "UDAIPUR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": 0.94,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 0.57
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 0.94,
+                    "oc": null,
+                    "ag": null,
+                    "overall": 0.57
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "RAJSAMAND",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 2.22,
+                    "overall": 0.62
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 0.58,
+                "oc": 12.99,
+                "ag": null,
+                "overall": 0.59
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": 0.87,
+                "oc": null,
+                "ag": 0.66,
+                "overall": 0.79
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": 0.58,
+            "oc": 12.99,
+            "ag": null,
+            "overall": 0.59
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": 0.87,
+            "oc": null,
+            "ag": 0.65,
+            "overall": 0.79
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "GOLD",
+        "states": [
+          {
+            "state_name": "KARNATAKA",
+            "districts": [
+              {
+                "district_name": "RAICHUR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.62,
+                    "overall": 0.28
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 1.78,
+                    "oc": null,
+                    "ag": 0.62,
+                    "overall": 1.14
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.62,
+                "overall": 0.28
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": 1.78,
+                "oc": null,
+                "ag": 0.62,
+                "overall": 1.14
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": 0.61,
+            "overall": 0.28
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": 1.73,
+            "oc": null,
+            "ag": 0.61,
+            "overall": 1.11
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "GRANITE",
+        "states": [
+          {
+            "state_name": "ANDHRA PRADESH",
+            "districts": [
+              {
+                "district_name": "PRAKASHAM",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 0.65,
+                    "ag": null,
+                    "overall": 0.48
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.61,
+                "ag": null,
+                "overall": 0.45
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "KARNATAKA",
+            "districts": [
+              {
+                "district_name": "BAGALKOT",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 2.1,
+                    "ag": null,
+                    "overall": 1.73
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 2.1,
+                    "ag": null,
+                    "overall": 1.73
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.76,
+                "ag": null,
+                "overall": 0.65
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.76,
+                "ag": null,
+                "overall": 0.65
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 0.37,
+            "ag": null,
+            "overall": 0.3
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 0.09,
+            "ag": null,
+            "overall": 0.07
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "IRON",
+        "states": [
+          {
+            "state_name": "CHHATTISGARH",
+            "districts": [
+              {
+                "district_name": "DANTEWARA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 2.95,
+                    "ag": 2.9,
+                    "overall": 2.92
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "BALOD",
+                "casualty_rates": null,
+                "notes": "Employment figures not available"
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.3,
+                "overall": 0.14
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.51,
+                "ag": 0.9,
+                "overall": 0.69
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "JHARKHAND",
+            "districts": [
+              {
+                "district_name": "WEST SINGBHUM",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.19,
+                    "overall": 0.13
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 0.41,
+                    "ag": null,
+                    "overall": 0.13
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.19,
+                "overall": 0.13
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.41,
+                "ag": null,
+                "overall": 0.13
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "KARNATAKA",
+            "districts": [
+              {
+                "district_name": "BELLARY",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 0.24,
+                    "ag": null,
+                    "overall": 0.19
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.81,
+                    "overall": 0.19
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.17,
+                "ag": null,
+                "overall": 0.14
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.7,
+                "overall": 0.14
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "ORISSA",
+            "districts": [
+              {
+                "district_name": "KEONJHAR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 0.17,
+                    "ag": null,
+                    "overall": 0.07
+                  }
+                },
+                "notes": null
+              },
+              {
+                "district_name": "SUNDERGARH",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 0.28,
+                    "ag": 0.43,
+                    "overall": 0.34
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 0.08,
+                "oc": 0.1,
+                "ag": 0.09,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": 0.08,
+                "oc": null,
+                "ag": null,
+                "overall": 0.04
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "BHILWARA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 1.89,
+                    "ag": null,
+                    "overall": 1.15
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 1.71,
+                "ag": null,
+                "overall": 1.07
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": 0.07,
+            "oc": 0.13,
+            "ag": 0.1,
+            "overall": null
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": 0.18,
+            "oc": 0.17,
+            "ag": 0.17,
+            "overall": null
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "LIMESTONE",
+        "states": [
+          {
+            "state_name": "ANDHRA PRADESH",
+            "districts": [
+              {
+                "district_name": "RANGA REDDY",
+                "casualty_rates": null,
+                "notes": "Employment figures not available"
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 0.74,
+                "oc": null,
+                "ag": 0.48,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "HIMACHAL PRADESH",
+            "districts": [
+              {
+                "district_name": "BILASPUR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 28.57,
+                    "overall": 15.15
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 0.97,
+                "overall": 0.85
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "KOTA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.41,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 0.37,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 0.23,
+                "oc": null,
+                "ag": 0.2,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "TAMILNADU",
+            "districts": [
+              {
+                "district_name": "TIRUNELVELI",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 6.43,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 5.78,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 1.01,
+                "oc": null,
+                "ag": 0.88,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": 0.17,
+            "oc": null,
+            "ag": 0.13,
+            "overall": null
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 0.03,
+            "ag": null,
+            "overall": 0.03
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "MAGNESITE",
+        "states": [
+          {
+            "state_name": "TAMILNADU",
+            "districts": [
+              {
+                "district_name": "SALEM",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 1.03,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": 1.01,
+                    "oc": null,
+                    "ag": 0.51,
+                    "overall": 0.51
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 1.03,
+                "oc": null,
+                "ag": 1.01,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.51,
+                "ag": null,
+                "overall": 0.51
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": 0.91,
+            "oc": null,
+            "ag": 0.84,
+            "overall": null
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 0.45,
+            "ag": null,
+            "overall": 0.42
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "MANGANESE",
+        "states": [
+          {
+            "state_name": "MADHYA PRADESH",
+            "districts": [
+              {
+                "district_name": "BALAGHAT",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 0.33,
+                    "overall": 0.17
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 0.33,
+                "ag": null,
+                "overall": 0.16
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "MAHARASHTRA",
+            "districts": [
+              {
+                "district_name": "BHANDARA",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 1,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 0.22,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": 0.48,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": 0.14,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": 0.2,
+            "oc": null,
+            "ag": null,
+            "overall": null
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": 0.04,
+            "oc": 0.2,
+            "ag": null,
+            "overall": 0.04
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "MARBLE",
+        "states": [
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "RAJSAMAND",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 10.88,
+                    "ag": null,
+                    "overall": 8.89
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 7.31,
+                "ag": null,
+                "overall": 5.74
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 5.6,
+            "ag": null,
+            "overall": 4.41
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": null,
+            "overall": null
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "SANDSTONE",
+        "states": [
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "NAGAUR",
+                "casualty_rates": null,
+                "notes": "Employment figures not available"
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 5.29,
+                "ag": null,
+                "overall": 4.55
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 3.72,
+            "ag": null,
+            "overall": 3.23
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": null,
+            "overall": null
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "SILICA",
+        "states": [
+          {
+            "state_name": "RAJASTHAN",
+            "districts": [
+              {
+                "district_name": "KARAULI",
+                "casualty_rates": null,
+                "notes": "Employment figures not available"
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 3.07,
+                "overall": 2.04
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": 1.04,
+            "overall": 0.34
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": null,
+            "overall": null
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "SILLIMANITE",
+        "states": [
+          {
+            "state_name": "KERALA",
+            "districts": [
+              {
+                "district_name": "KOLLAM",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": 2.73,
+                    "overall": 2.64
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": 2.73,
+                "overall": 2.64
+              }
+            },
+            "notes": null
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": null,
+            "overall": null
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": null,
+            "ag": 0.53,
+            "overall": 0.28
+          }
+        },
+        "notes": null
+      },
+      {
+        "mineral_name": "STONE",
+        "states": [
+          {
+            "state_name": "ANDHRA PRADESH",
+            "districts": [
+              {
+                "district_name": "GUNTUR",
+                "casualty_rates": {
+                  "death_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": 76.92,
+                    "ag": null,
+                    "overall": 68.97
+                  },
+                  "serious_injury_rate_per_thousand_persons_employed": {
+                    "bg": null,
+                    "oc": null,
+                    "ag": null,
+                    "overall": null
+                  }
+                },
+                "notes": null
+              }
+            ],
+            "total_state_summary": {
+              "death_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": 6.71,
+                "ag": null,
+                "overall": 6.47
+              },
+              "serious_injury_rate_per_thousand_persons_employed": {
+                "bg": null,
+                "oc": null,
+                "ag": null,
+                "overall": null
+              }
+            },
+            "notes": null
+          },
+          {
+            "state_name": "UTTAR PRADESH",
+            "districts": [
+              {
+                "district_name": "SONEBHADRA",
+                "casualty_rates": null,
+                "notes": "Employment figures not available"
+              }
+            ],
+            "total_state_summary": null,
+            "notes": "Employment figures not available"
+          }
+        ],
+        "all_india_summary": {
+          "death_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 1.16,
+            "ag": null,
+            "overall": 0.84
+          },
+          "serious_injury_rate_per_thousand_persons_employed": {
+            "bg": null,
+            "oc": 0.17,
+            "ag": null,
+            "overall": 0.12
+          }
+        },
+        "notes": null
+      }
+    ],
+    "all_non_coal_minerals_summary": {
+      "death_rate_per_thousand_persons_employed": {
+        "bg": 0.29,
+        "oc": 0.29,
+        "ag": 0.11,
+        "overall": 0.22
+      },
+      "serious_injury_rate_per_thousand_persons_employed": {
+        "bg": 0.74,
+        "oc": 0.08,
+        "ag": 0.34,
+        "overall": 0.23
+      }
+    }
+  },
+  "extraction_metadata": {
+    "field_metadata": {
+      
+    },
+    "usage": {
+      "num_pages_extracted": 4,
+      "num_document_tokens": 5927,
+      "num_output_tokens": 9838
+    }
+  }
+}

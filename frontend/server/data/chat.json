@@ -1,0 +1,51 @@
+[
+  {
+    "id": "chat-1",
+    "role": "assistant",
+    "content": "Hello! I'm your Digital Mine Safety Officer. I can help you analyze DGMS incident data, identify patterns, and provide compliance recommendations. What would you like to know?",
+    "timestamp": "2025-11-04T00:00:00.000Z",
+    "metadata": null
+  },
+  {
+    "id": "6f5dc663-8f99-4306-b015-3acab6d4455f",
+    "role": "user",
+    "content": "hii",
+    "timestamp": "2025-11-04T17:01:44.328Z",
+    "metadata": null
+  },
+  {
+    "id": "3cd8a79c-ec38-4f9a-87ce-3285fbf55f04",
+    "role": "assistant",
+    "content": "I've registered your query: \"hii\". (Prototype reply)",
+    "timestamp": "2025-11-04T17:01:44.329Z",
+    "metadata": null
+  },
+  {
+    "id": "79a9e793-5cc0-4c92-bab8-7c6db469ba18",
+    "role": "user",
+    "content": "Show all methane-related accidents in 2021",
+    "timestamp": "2025-11-04T19:08:05.807Z",
+    "metadata": null
+  },
+  {
+    "id": "09ca78b9-008f-4327-9b1d-dd979db9fa26",
+    "role": "assistant",
+    "content": "I've registered your query: \"Show all methane-related accidents in 2021\". (Prototype reply)",
+    "timestamp": "2025-11-04T19:08:05.808Z",
+    "metadata": null
+  },
+  {
+    "id": "09d688b8-37d1-4d4c-8f2f-de4bf5825973",
+    "role": "user",
+    "content": "Show all methane-related accidents in 2015",
+    "timestamp": "2025-11-04T19:18:12.443Z",
+    "metadata": null
+  },
+  {
+    "id": "f7f19261-3075-4e72-b0b4-9ef72c1d1871",
+    "role": "assistant",
+    "content": "I've registered your query: \"Show all methane-related accidents in 2015\". (Prototype reply)",
+    "timestamp": "2025-11-04T19:18:12.447Z",
+    "metadata": null
+  }
+]
