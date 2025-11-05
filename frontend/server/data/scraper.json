@@ -7,30 +7,6 @@
       "status": "active",
       "lastRun": "2 hours ago",
       "itemsCollected": 23
-    },
-    {
-      "id": 2,
-      "name": "Regional Mine Inspections",
-      "url": "https://example-inspections.gov.in",
-      "status": "active",
-      "lastRun": "5 hours ago",
-      "itemsCollected": 15
-    },
-    {
-      "id": 3,
-      "name": "Mining News Aggregator",
-      "url": "https://mining-news.example.com",
-      "status": "paused",
-      "lastRun": "1 day ago",
-      "itemsCollected": 42
-    },
-    {
-      "id": 4,
-      "name": "Safety Bulletin Board",
-      "url": "https://safety-bulletins.example.gov.in",
-      "status": "active",
-      "lastRun": "30 minutes ago",
-      "itemsCollected": 8
     }
   ],
   "recentActivity": [

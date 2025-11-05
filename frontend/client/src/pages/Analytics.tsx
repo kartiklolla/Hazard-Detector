@@ -42,8 +42,6 @@ export default function Analytics() {
         <TabsList data-testid="tabs-analytics">
           <TabsTrigger value="trends" data-testid="tab-trends">Trends</TabsTrigger>
           <TabsTrigger value="patterns" data-testid="tab-patterns">Patterns</TabsTrigger>
-          <TabsTrigger value="predictions" data-testid="tab-predictions">Predictions</TabsTrigger>
-          <TabsTrigger value="comparisons" data-testid="tab-comparisons">Comparisons</TabsTrigger>
         </TabsList>
 
         <TabsContent value="trends" className="space-y-6">
@@ -206,125 +204,9 @@ export default function Analytics() {
           </div>
         </TabsContent>
 
-        <TabsContent value="predictions" className="space-y-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>AI-Powered Predictions</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div className="p-4 border-l-4 border-l-destructive bg-destructive/5 rounded">
-                  <div className="flex items-start justify-between gap-4 mb-2">
-                    <h4 className="font-semibold">High Risk Alert - Jharkhand Region</h4>
-                    <Badge variant="destructive">87% Confidence</Badge>
-                  </div>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    Predicted increase in methane incidents in Q4 2024 based on historical patterns and current ventilation reports
-                  </p>
-                  <div className="text-xs text-muted-foreground">
-                    <strong>Recommendation:</strong> Increase ventilation inspections and monitoring frequency
-                  </div>
-                </div>
+        
 
-                <div className="p-4 border-l-4 border-l-chart-2 bg-chart-2/5 rounded">
-                  <div className="flex items-start justify-between gap-4 mb-2">
-                    <h4 className="font-semibold">Equipment Maintenance Alert</h4>
-                    <Badge>73% Confidence</Badge>
-                  </div>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    12 excavators approaching critical service hours threshold across 5 locations
-                  </p>
-                  <div className="text-xs text-muted-foreground">
-                    <strong>Recommendation:</strong> Schedule preventive maintenance within 30 days
-                  </div>
-                </div>
-
-                <div className="p-4 border-l-4 border-l-chart-3 bg-chart-3/5 rounded">
-                  <div className="flex items-start justify-between gap-4 mb-2">
-                    <h4 className="font-semibold">Compliance Risk Forecast</h4>
-                    <Badge variant="secondary">65% Confidence</Badge>
-                  </div>
-                  <p className="text-sm text-muted-foreground mb-3">
-                    3 sites may exceed regulatory incident thresholds if current trend continues
-                  </p>
-                  <div className="text-xs text-muted-foreground">
-                    <strong>Recommendation:</strong> Implement enhanced safety protocols immediately
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </TabsContent>
-
-        <TabsContent value="comparisons" className="space-y-6">
-          <div className="grid gap-6 lg:grid-cols-2">
-            <Card>
-              <CardHeader>
-                <CardTitle>Underground vs Surface Mines</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-sm font-medium">Underground</span>
-                      <span className="text-sm font-mono">187 incidents</span>
-                    </div>
-                    <div className="h-3 bg-muted rounded-full overflow-hidden">
-                      <div className="h-full bg-primary" style={{ width: "62%" }} />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-sm font-medium">Surface</span>
-                      <span className="text-sm font-mono">113 incidents</span>
-                    </div>
-                    <div className="h-3 bg-muted rounded-full overflow-hidden">
-                      <div className="h-full bg-chart-2" style={{ width: "38%" }} />
-                    </div>
-                  </div>
-                  <div className="pt-4 border-t">
-                    <p className="text-sm text-muted-foreground">
-                      Underground mines account for 62% of total incidents despite representing only 40% of active mining sites
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Coal vs Non-Coal Mines</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-sm font-medium">Coal Mines</span>
-                      <span className="text-sm font-mono">234 incidents</span>
-                    </div>
-                    <div className="h-3 bg-muted rounded-full overflow-hidden">
-                      <div className="h-full bg-destructive" style={{ width: "78%" }} />
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-sm font-medium">Non-Coal Mines</span>
-                      <span className="text-sm font-mono">66 incidents</span>
-                    </div>
-                    <div className="h-3 bg-muted rounded-full overflow-hidden">
-                      <div className="h-full bg-chart-5" style={{ width: "22%" }} />
-                    </div>
-                  </div>
-                  <div className="pt-4 border-t">
-                    <p className="text-sm text-muted-foreground">
-                      Coal mining operations show 3.5x higher incident rate, primarily due to methane and fire hazards
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </TabsContent>
+        
       </Tabs>
     </div>
   );
